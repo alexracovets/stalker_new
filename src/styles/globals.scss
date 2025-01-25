@@ -1,0 +1,50 @@
+@use './variables';
+
+html {
+  background-color: #837F7C
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  position: relative;
+  min-height: 100dvh;
+  max-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: calc(100vw / 1920 * 10);
+
+  main {
+    .clip_startBtn {
+      clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    }
+  }
+
+  .bg-custom-gradient {
+    background: linear-gradient(to top, #898883, #BFBFBA, #C9C2B2, #BFBFBA, #898883);
+  }
+
+  .bg-custom-gradient_second {
+    background: linear-gradient(to top, #837F7C, #C9C2B2, #C9C2B2, #837F7C);
+  }
+}
