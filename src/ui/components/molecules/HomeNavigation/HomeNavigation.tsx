@@ -1,6 +1,6 @@
 "use client";
 
-import homeLinks from "@/data/homeLinks.json";
+import categories from "@/data/categories.json";
 import storePDA from "@/store/storePDA";
 import { cn } from "@utils";
 
@@ -16,11 +16,11 @@ export const HomeNavigation = () => {
 
     return (
         <ul className="flex flex-col gap-y-[1.6rem] w-full">
-            {homeLinks.map((link, idx) => {
+            {categories.map((category, idx) => {
                 return (
                     <li
                         key={idx}
-                        data-text={link.name}
+                        data-text={category.name}
                         onClick={openPDA}
                         className={cn(
                             "transition ease-in-out duration-300 before:transition before:ease-in-out before:duration-300 w-full cursor-pointer flex justify-center items-center",
@@ -32,7 +32,7 @@ export const HomeNavigation = () => {
                         )}
                     >
                         <span className="block w-full min-w-full leading-[1]">
-                            {link.name}
+                            {category.name}
                         </span>
                     </li>
                 );

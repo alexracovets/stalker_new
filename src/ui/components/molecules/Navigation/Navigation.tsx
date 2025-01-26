@@ -1,15 +1,23 @@
 "use client";
 
-import { Button, HeaderNavBg, NavigationWrapper } from "@components/atoms";
-import { NavList } from "@components/molecules";
+import { HeaderNavBg, NavigationWrapper } from "@components/atoms";
+import { ButtonKeyUp, NavList } from "@components/molecules";
 
 export const Navigation = () => {
+
+    const prevCategory = () => {
+
+    };
+    const nextCategory = () => {
+
+    };
+
     return (
         <NavigationWrapper>
             <HeaderNavBg />
-            <Button variant="destructive" data-pda-previous>Q</Button>
+            <ButtonKeyUp action="prev-category" onClick={prevCategory}>Q</ButtonKeyUp>
             <NavList />
-            <Button variant="destructive" data-pda-next>E</Button>
+            <ButtonKeyUp action="next-category" onClick={nextCategory}>E</ButtonKeyUp>
         </NavigationWrapper>
     );
 };

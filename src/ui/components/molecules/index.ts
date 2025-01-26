@@ -6,3 +6,4 @@ export { Internet } from './Internet';
 export { Timer } from './Timer';
 export { Navigation } from './Navigation';
 export { NavList } from './NavList';
+export { ButtonKeyUp } from './ButtonKeyUp';
