@@ -4,10 +4,19 @@ import Image from "next/image";
 import { cn } from "@utils";
 
 import { storeNavDash } from "@store";
+import { useEffect } from "react";
 
-export const NavDash = () => {
+interface NavDashProps {
+    setCurrentCategory: () => void;
+};
+
+export const NavDash = ({ setCurrentCategory }: NavDashProps) => {
     const isShow = storeNavDash((state) => state.isShow);
     const lineStyles = storeNavDash((state) => state.lineStyles);
+    
+    useEffect(() => {
+        setCurrentCategory();
+    }, [setCurrentCategory]);
 
     return (
         <div

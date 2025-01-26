@@ -24,7 +24,6 @@ export const storeCategories = create<CategoriesStore_Type>()(
         setCurrentCategory: (value: string) => {
             set((state) => {
                 state.currentCategory = value;
-                console.log("currentCategory", value);
             });
         },
     }))

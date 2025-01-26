@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 
 import { storeCategories } from "@store";
@@ -12,11 +12,14 @@ export const NavList = () => {
     const menuRef = useRef<HTMLDivElement>(null);
     const currentCategory = storeCategories(state => state.currentCategory);
     const categories = storeCategories(state => state.categories);
-    const { handleMouseEnter } = useNavDash({ menuRef });
+    const { setActiveCategory, setCurrentCategory } = useNavDash({ menuRef });
 
     return (
         <nav className="h-full relative" ref={menuRef}>
-            <ul className="flex justify-center items-center gap-x-[8rem]">
+            <ul
+                onMouseLeave={() => setCurrentCategory()}
+                className="flex justify-center items-center gap-x-[8rem]"
+            >
                 {
                     categories.map((category, idx) => {
                         return (
@@ -24,7 +27,7 @@ export const NavList = () => {
                                 <Link
                                     id={category.id}
                                     href={category.route}
-                                    onMouseEnter={(e) => handleMouseEnter(e)}
+                                    onMouseEnter={(e) => setActiveCategory(e)}
                                     className={cn(
                                         "block text-[2.5rem] font-roboto_condensed py-[3.2rem] px-[3rem] cursor-pointer",
                                         "hover:font-[500] hover:text-pda-linksActive",
@@ -38,7 +41,7 @@ export const NavList = () => {
                     })
                 }
             </ul>
-            <NavDash />
+            <NavDash setCurrentCategory={setCurrentCategory} />
         </nav>
     );
 };
