@@ -24,7 +24,7 @@ export const NavDash = () => {
             >
                 <div className="relative w-full h-full flex justify-center items-end">
                     <div className="relative w-[8.5rem] h-[2.5rem]">
-                        <Image src="/pda/line_dot.png" fill alt="dot" className="object-cover" />
+                        <Image src="/pda/line_dot.png" fill alt="dot" sizes="100%" priority className="object-cover" />
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@ export const NavDash = () => {
             >
                 <div className="relative w-full h-full flex justify-center items-end">
                     <div className="relative w-[4.4rem] h-[1.7rem] blur-[1rem]">
-                        <Image src="/pda/line_dot_small.png" fill alt="dot" className="object-cover" />
+                        <Image src="/pda/line_dot_small.png" fill alt="dot" sizes="100%" priority className="object-cover" />
                     </div>
                 </div>
             </div>

@@ -2,9 +2,8 @@
 
 import { useSearchParams } from 'next/navigation';
 
-export default function Page() {
+export default function Categories() {
     const searchParams = useSearchParams();
     const slug = searchParams.get('id');
-    console.log('slug:', searchParams);
     return <p>Post: {slug}</p>;
 }
