@@ -4,21 +4,14 @@ import { immer } from 'zustand/middleware/immer';
 interface PDA_Type {
     isOpen: boolean;
     isPlay: boolean;
-    currentCategory: string;
-    nextCategory: string;
-    prevCategory: string;
     setIsOpen: (value: boolean) => void;
     setIsPlay: (value: boolean) => void;
-    setCurrentSection: (value: string) => void;
 }
 
 export const storePDA = create<PDA_Type>()(
     immer((set) => ({
         isOpen: false,
         isPlay: false,
-        currentCategory: "",
-        nextCategory: "",
-        prevCategory: "",
         setIsOpen: (value) =>
             set((state) => {
                 state.isOpen = value;
@@ -26,11 +19,6 @@ export const storePDA = create<PDA_Type>()(
         setIsPlay: (value) =>
             set((state) => {
                 state.isPlay = value;
-            }),
-        setCurrentSection: (value) =>
-            set((state) => {
-                state.currentCategory = value;
-
             }),
     }))
 );
