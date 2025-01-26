@@ -1,14 +1,14 @@
 "use client";
 
-import { Internet, HeaderPlug, Timer } from "@/ui/components/atoms";
+import { HeaderPlug, HeaderTopWrapper } from "@components/atoms";
+import { Internet, Timer } from "@components/molecules";
 
 export const HeaderTopSide = () => {
-
     return (
-        <div className="flex justify-center items-center">
+        <HeaderTopWrapper>
             <Internet />
             <HeaderPlug />
             <Timer />
-        </div>
+        </HeaderTopWrapper>
     );
 };

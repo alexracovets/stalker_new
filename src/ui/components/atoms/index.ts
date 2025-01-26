@@ -5,3 +5,5 @@ export { HeaderPlug } from './HeaderPlug';
 export { HeaderWrapper } from './HeaderWrapper';
 export { HeaderNavBg } from './HeaderNavBg';
 export { NavDash } from './NavDash';
+export { HeaderTopWrapper } from './HeaderTopWrapper';
+export { NavigationWrapper } from './NavigationWrapper';
