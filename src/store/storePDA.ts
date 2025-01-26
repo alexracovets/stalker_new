@@ -12,7 +12,7 @@ interface PDA_Type {
     setCurrentSection: (value: string) => void;
 }
 
-const storePDA = create<PDA_Type>()(
+export const storePDA = create<PDA_Type>()(
     immer((set) => ({
         isOpen: false,
         isPlay: false,
@@ -34,5 +34,3 @@ const storePDA = create<PDA_Type>()(
             }),
     }))
 );
-
-export default storePDA;

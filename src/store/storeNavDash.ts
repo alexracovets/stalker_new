@@ -19,7 +19,7 @@ interface NavDash_Type {
     setLineStyles: (value: lineStyles_Type) => void;
 }
 
-const storeNavDash = create<NavDash_Type>()(
+export const storeNavDash = create<NavDash_Type>()(
     immer((set) => ({
         isShow: false,
         lineStyles: {
@@ -44,5 +44,3 @@ const storeNavDash = create<NavDash_Type>()(
         },
     }))
 );
-
-export default storeNavDash;

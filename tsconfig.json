@@ -34,6 +34,9 @@
       "@data": [
         "./src/data"
       ],
+      "@store": [
+        "./src/store"
+      ],
       "@components/atoms": [
         "./src/ui/components/atoms"
       ],

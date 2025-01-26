@@ -1,11 +1,10 @@
-"use client";
+"use client"; 
 
-import categories from "@/data/categories.json";
-import storePDA from "@/store/storePDA";
+import { storePDA, storeCategories } from "@store";
 import { cn } from "@utils";
 
 export const HomeNavigation = () => {
-
+    const categories = storeCategories(state => state.categories);
     const setIsPlayPDA = storePDA((state) => state.setIsPlay);
     const setIsOpenPDA = storePDA((state) => state.setIsOpen);
 

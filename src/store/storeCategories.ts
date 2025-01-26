@@ -9,13 +9,18 @@ interface Categories_Type {
         name: string;
         route: string;
     }[];
+    currentCategory: string;
+    setCurrentCategory: (value: string) => void;
 };
 
-const storeCategories = create<Categories_Type>()(
+export const storeCategories = create<Categories_Type>()(
     immer((set) => ({
         categories: categories,
         currentCategory: "",
+        setCurrentCategory: (value: string) => {
+            set((state) => {
+                state.currentCategory = value;
+            });
+        },
     }))
 );
-
-export default storeCategories;

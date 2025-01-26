@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { cn } from "@utils";
 
-import storeNavDash from "@/store/storeNavDash";
+import { storeNavDash } from "@store";
 
 export const NavDash = () => {
     const isShow = storeNavDash((state) => state.isShow);

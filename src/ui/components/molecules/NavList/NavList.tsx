@@ -3,15 +3,15 @@
 import { useRef } from "react";
 import Link from "next/link";
 
-import categories from "@/data/categories.json";
+import { storeCategories } from "@store";
 import { NavDash } from "@components/atoms";
-import storePDA from "@/store/storePDA";
 import { useNavDash } from "@/hooks";
 import { cn } from "@utils";
 
 export const NavList = () => {
     const menuRef = useRef<HTMLDivElement>(null);
-    const currentCategory = storePDA(state => state.currentCategory);
+    const currentCategory = storeCategories(state => state.currentCategory);
+    const categories = storeCategories(state => state.categories);
     const { handleMouseEnter } = useNavDash({ menuRef });
 
     return (

@@ -2,7 +2,7 @@
 
 import { useCallback, RefObject, MouseEvent } from "react";
 
-import storeNavDash from "@/store/storeNavDash";
+import { storeNavDash } from "@store";
 
 interface NavDashProps {
     menuRef: RefObject<HTMLDivElement>;
