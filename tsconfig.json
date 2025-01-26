@@ -31,6 +31,9 @@
       "@types": [
         "./src/types"
       ],
+      "@data": [
+        "./src/data"
+      ],
       "@components/atoms": [
         "./src/ui/components/atoms"
       ],
