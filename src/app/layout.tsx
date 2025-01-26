@@ -1,10 +1,9 @@
 "use client";
 
-import { ReactNode } from "react";
-
 import { DefaultLayout } from "@components/templates";
+import { JustChildren } from "@/types";
 
-export default function RootLayout({ children }: Readonly<{ children: ReactNode; }>) {
+export default function RootLayout({ children }: Readonly<JustChildren>) {
   return (
     <DefaultLayout>
       {children}

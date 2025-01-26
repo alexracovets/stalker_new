@@ -1,9 +1,9 @@
 "use client";
 
 import type { Metadata } from "next";
+import { JustChildren } from "@types";
 
 import { calibri, stalker, roboto, roboto_condensed, rethink } from '@/ui/fonts';
-import '@/styles/globals.scss';
 import { cn } from "@/utils";
 
 export const metadata: Metadata = {
@@ -11,7 +11,8 @@ export const metadata: Metadata = {
     description: "Stalker 2 - data base",
 };
 
-export const DefaultLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
+import '@/styles/globals.scss';
+export const DefaultLayout = ({ children }: Readonly<JustChildren>) => {
     return (
         <html lang="en">
             <body
