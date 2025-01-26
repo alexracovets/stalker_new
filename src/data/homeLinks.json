@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Захист",
+        "route": "/pda/protects",
+        "id": "protects",
+        "categories": [
+            "armors",
+            "masks",
+            "combo_armors"
+        ]
+    },
+    {
+        "name": "Зброя",
+        "route": "/pda/weapons",
+        "id": "weapons",
+        "categories": [
+            "pistols",
+            "automatics",
+            "shotguns",
+            "rpgs",
+            "grenades",
+            "ammo"
+        ]
+    },
+    {
+        "name": "Зона",
+        "route": "/pda/zone",
+        "id": "zone",
+        "categories": []
+    },
+    {
+        "name": "Угруповання",
+        "route": "/pda/groups",
+        "id": "groups",
+        "categories": []
+    },
+    {
+        "name": "Поради",
+        "route": "/pda/advice",
+        "id": "advice",
+        "categories": []
+    },
+    {
+        "name": "Екіпіруватись",
+        "route": "/pda/equip",
+        "id": "equip",
+        "categories": []
+    }
+]

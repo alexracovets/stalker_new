@@ -48,10 +48,7 @@ export default {
 					colorOne: "#898883",
 					colorTwo: "#BFBEBA",
 					colorThree: "#C9C2B2"
-				},
-			},
-			backgroundImage: {
-				'start-pattern': "url('/btn/startBtnTexture.png')"
+				}
 			}
 		}
 	},
