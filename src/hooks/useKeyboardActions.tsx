@@ -23,7 +23,7 @@ const useKeyboardActions = () => {
 					break;
 			}
 		},
-		[categories, currentCategory, setCurrentCategory] // Add `setCurrentCategory` to the dependency array
+		[categories, currentCategory, setCurrentCategory]
 	);
 
 	const actions: Record<string, () => void> = useMemo(
@@ -37,11 +37,11 @@ const useKeyboardActions = () => {
 	const handleKeyPress = useCallback(
 		(event: KeyboardEvent) => {
 			const keyMap: Record<string, string> = {
-				q: "prev-category",
-				e: "next-category",
+				"KeyQ": "prev-category",  
+				"KeyE": "next-category",  
 			};
 
-			const actionName = keyMap[event.key.toLowerCase()];
+			const actionName = keyMap[event.code];
 			if (actionName && actions[actionName]) {
 				event.preventDefault();
 				actions[actionName]();
