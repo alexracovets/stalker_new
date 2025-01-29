@@ -1,6 +1,9 @@
-import { storeCategories } from "@/store";
-import { useRouter } from "next/navigation";
+"use client";
+
 import { useCallback, useMemo, useEffect } from "react";
+import { useRouter } from "next/navigation";
+
+import { storeCategories } from "@/store";
 
 const useKeyboardActions = () => {
 	// Accessing state and actions from the store
