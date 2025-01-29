@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, RefObject, MouseEvent, useEffect } from "react";
+import { useCallback, RefObject, MouseEvent } from "react";
 
 import { storeCategories, storeNavDash } from "@store";
 

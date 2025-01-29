@@ -1,21 +1,27 @@
 "use client";
 
+import useKeyboardActions from "@/hooks/useKeyboardActions";
 import { Button } from "@components/atoms";
 import { ReactNode, useEffect } from "react";
 
 interface ButtonKeyUpProps {
-    action: string;
-    children: ReactNode;
-    onClick: () => void;
+	action: string;
+	children: ReactNode;
+	onClick?: () => void;
 }
 
-export const ButtonKeyUp = ({ action, onClick, children }: ButtonKeyUpProps) => {
+export const ButtonKeyUp = ({
+	action,
+	onClick,
+	children,
+}: ButtonKeyUpProps) => {
 
-    useEffect(() => {
+	const {actions} = useKeyboardActions();
+	useEffect(() => {}, [action]);
 
-    }, [action]);
-
-    return (
-        <Button variant="destructive" onClick={onClick}>{children}</Button>
-    )
+	return (
+		<Button onClick={actions[action]} variant="destructive">
+			{children}
+		</Button>
+	);
 };

@@ -13,7 +13,7 @@ export const NavList = () => {
     const currentCategory = storeCategories(state => state.currentCategory);
     const categories = storeCategories(state => state.categories);
     const { setActiveCategory, setCurrentCategory } = useNavDash({ menuRef });
-
+    
     return (
         <nav className="h-full relative" ref={menuRef}>
             <ul
