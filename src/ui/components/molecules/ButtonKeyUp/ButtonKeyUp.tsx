@@ -8,7 +8,7 @@ export const ButtonKeyUp = ({ action, children, footer }: ButtonKeyUpType) => {
 	const { actions } = useKeyboardActions();
 
 	return (
-		<Button onClick={!footer ? actions[action] : () => null} variant="destructive" >
+		<Button onClick={!footer ? actions[action] : () => null} variant="destructive" asChild={footer}>
 			{children}
 		</Button>
 	);
