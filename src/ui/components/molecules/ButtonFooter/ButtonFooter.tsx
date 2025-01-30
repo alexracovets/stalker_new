@@ -24,16 +24,18 @@ export const ButtonFooter = ({ action, children }: ButtonFooterType) => {
                 {
                     action === "to-start" ?
                         "X" :
-                        <div className="relative w-[2rem] h-full">
-                            <Image
-                                src="/svg/arrow_destructive.svg"
-                                fill
-                                alt="bottom"
-                                className={cn(
-                                    "object-contain",
-                                    action === "prev-item" && "rotate-180"
-                                )}
-                            />
+                        <div className="flex justify-center items-center">
+                            <div className="relative w-[2rem] h-full">
+                                <Image
+                                    src="/svg/arrow_destructive.svg"
+                                    fill
+                                    alt="bottom"
+                                    className={cn(
+                                        "object-contain",
+                                        action === "prev-item" && "rotate-180"
+                                    )}
+                                />
+                            </div>
                         </div>
                 }
             </ButtonKeyUp>
