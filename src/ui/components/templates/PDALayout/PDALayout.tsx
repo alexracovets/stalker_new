@@ -2,7 +2,7 @@
 
 import { useCheckCategories } from "@/hooks";
 import { JustChildren } from "@/types";
-import { Header, Footer, Main } from "@components/organisms";
+import { Header, Footer, Main, Sidebar, Content } from "@components/organisms";
 
 export const PDALayout = ({ children }: Readonly<JustChildren>) => {
 
@@ -12,7 +12,10 @@ export const PDALayout = ({ children }: Readonly<JustChildren>) => {
         <>
             <Header />
             <Main>
-                {children}
+                <Sidebar />
+                <Content>
+                    {children}
+                </Content>
             </Main>
             <Footer />
         </>

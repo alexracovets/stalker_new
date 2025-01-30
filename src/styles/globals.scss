@@ -12,8 +12,9 @@ body {
   position: relative;
   min-height: 100dvh;
   max-height: 100dvh;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
   width: 100%;
 }
 
