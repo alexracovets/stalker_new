@@ -12,7 +12,6 @@ export const useKeyboardActions = () => {
 
 	const changeCategory = useCallback(
 		(direction: string) => {
-			console.log('1')
 			const currentIndex = categories.findIndex((category) => category.id === currentCategory);
 			let routePath = "";
 
@@ -28,7 +27,7 @@ export const useKeyboardActions = () => {
 			router.push(`/pda/${routePath}`);
 
 		},
-		[categories, currentCategory]
+		[categories, currentCategory, router]
 	);
 
 	const actions: Record<string, () => void> = useMemo(

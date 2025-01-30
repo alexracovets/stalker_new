@@ -9,3 +9,4 @@ export type { ButtonKeyUpType } from './ButtonKeyUpType';
 export type { ButtonFooterType } from './ButtonFooterType';
 export type { NavigationGroupLinksType } from './NavigationGroupLinksType';
 export type { NavigationGroupWrapperType } from './NavigationGroupWrapperType';
+export type { NavigationLinkType } from './NavigationLinkType';

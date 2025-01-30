@@ -2,17 +2,10 @@
 
 import Link from "next/link";
 
+import { NavigationLinkType } from "@types";
 import { cn } from "@utils";
 
-interface NavItemType {
-    route: string;
-    id: string;
-    name: string;
-    currentCategory: string;
-    setActiveCategory: (e: any) => void;
-}
-
-export const NavigationLink = ({ route, id, name, currentCategory, setActiveCategory }: NavItemType) => {
+export const NavigationLink = ({ route, id, name, currentCategory, setActiveCategory }: NavigationLinkType) => {
     return (
         <li>
             <Link

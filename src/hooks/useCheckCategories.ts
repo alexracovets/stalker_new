@@ -17,7 +17,7 @@ export const useCheckCategories = () => {
         if (category) {
             setCurrentCategory(category);
         }
-    }, [currentPath]);
+    }, [currentPath, setCurrentCategory]);
 
     return null;
 };

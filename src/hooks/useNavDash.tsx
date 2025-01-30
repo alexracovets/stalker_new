@@ -29,7 +29,7 @@ export const useNavDash = ({ menuRef }: NavDashRefType) => {
                 }
             });
         }
-    }, []);
+    }, [menuRef, setIsShow, setLineStyles]);
 
     const setCurrentCategory = useCallback(() => {
         const categoryElement = document.getElementById(currentCategory);
