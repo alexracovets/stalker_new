@@ -9,3 +9,6 @@ export { HeaderTopWrapper } from './HeaderTopWrapper';
 export { NavigationWrapper } from './NavigationWrapper';
 export { Text } from './Text';
 export { FooterBorder } from './FooterBorder';
+export { SideBarBorder } from './SideBarBorder';
+export { HeaderBorder } from './HeaderBorder';
+export { ContentBorder } from './ContentBorder';

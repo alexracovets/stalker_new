@@ -5,13 +5,6 @@ import { ButtonKeyUp, NavList } from "@components/molecules";
 
 export const Navigation = () => {
 
-    /* const prevCategory = () => {
-
-    };
-    const nextCategory = () => {
-
-    }; */
-
     return (
         <NavigationWrapper>
             <HeaderNavBg />

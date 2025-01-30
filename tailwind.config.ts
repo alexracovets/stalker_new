@@ -17,6 +17,8 @@ export default {
 			},
 			colors: {
 				primary: {
+					main: "#A8A3A0",
+					mainBlack: "#1E1A17",
 					black: "#0A0A09",
 					white: "#FFFFFF",
 					gray: "#9E9D98",

@@ -6,7 +6,7 @@ export const Main = ({ children }: JustChildren) => {
 
     return (
         <main
-            className="grid grid-cols-[30%_70%] flex-grow"
+            className="grid grid-cols-[52.5rem_auto] flex-grow"
         >
             {children}
         </main>

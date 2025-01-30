@@ -1,6 +1,6 @@
 "use client";
 
-import { HeaderWrapper } from "@components/atoms";
+import { HeaderWrapper, HeaderBorder } from "@components/atoms";
 import { Navigation, HeaderTopSide } from "@components/molecules";
 
 export const Header = () => {
@@ -8,6 +8,7 @@ export const Header = () => {
         <HeaderWrapper>
             <HeaderTopSide />
             <Navigation />
+            <HeaderBorder />
         </HeaderWrapper >
     );
 };

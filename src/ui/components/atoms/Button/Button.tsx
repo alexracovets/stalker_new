@@ -4,7 +4,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 
 import { cn } from "@utils";
 
-const buttonVariants = cva("flex justify-center items-center cursor-pointer", {
+const buttonVariants = cva("flex justify-center items-center cursor-pointer text-primary-mainBlack", {
     variants: {
         variant: {
             default: "",

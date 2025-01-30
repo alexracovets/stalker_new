@@ -4,7 +4,7 @@ import { JustChildren } from "@/types";
 
 export const HeaderWrapper = ({ children }: JustChildren) => {
     return (
-        <header className="mb-[.3rem]">
+        <header className="relative">
             {children}
         </header>
     );

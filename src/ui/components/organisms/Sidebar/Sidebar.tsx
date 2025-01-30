@@ -1,11 +1,13 @@
 "use client";
 
+import { SideBarBorder } from "@components/atoms";
+
 export const Sidebar = () => {
     return (
         <aside
-            className="bg-blue-500"
+            className="relative p-[.8rem]"
         >
-            aside
+            <SideBarBorder />
         </aside>
     );
 };

@@ -22,7 +22,7 @@ export const DefaultLayout = ({ children }: Readonly<JustChildren>) => {
                     roboto_condensed.variable,
                     roboto.variable,
                     rethink.variable,
-                    "antialiased bg-main-black"
+                    "antialiased bg-main-black text-primary-main"
                 )}
             >
                 {children}

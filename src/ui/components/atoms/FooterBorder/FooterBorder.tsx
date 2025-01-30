@@ -6,6 +6,11 @@ export const FooterBorder = () => {
     return (
         <div className="absolute left-0 top-0 w-full h-full">
             <div className="relative w-full h-full">
+                <div className="absolute left-0 top-0 w-full h-[.8rem]">
+                    <div className="relative w-full h-full">
+                        <Image src="/pda/horizontal_center.jpg" fill alt="right" className="object-cover" />
+                    </div>
+                </div>
                 <div className="absolute left-0 bottom-0 w-full h-[.7rem]">
                     <div className="relative w-full h-full">
                         <Image src="/pda/bottom.jpg" fill alt="bottom" className="object-cover" />
