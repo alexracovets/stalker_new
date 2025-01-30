@@ -32,9 +32,7 @@ const textVariants = cva(
 export const Text = ({ children, className, variant, asChild = "p" }: TextProps) => {
     return createElement(
         asChild,
-        {
-            className: cn(textVariants({ variant, className }))
-        },
+        { className: cn(textVariants({ variant, className })) },
         children
     );
 };

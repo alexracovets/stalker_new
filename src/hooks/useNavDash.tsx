@@ -1,14 +1,11 @@
 "use client";
 
-import { useCallback, RefObject, MouseEvent } from "react";
+import { useCallback, MouseEvent } from "react";
 
 import { storeCategories, storeNavDash } from "@store";
+import { NavDashRefType } from "@types";
 
-interface NavDashProps {
-    menuRef: RefObject<HTMLDivElement>;
-};
-
-export const useNavDash = ({ menuRef }: NavDashProps) => {
+export const useNavDash = ({ menuRef }: NavDashRefType) => {
     const setIsShow = storeNavDash((state) => state.setIsShow);
     const setLineStyles = storeNavDash((state) => state.setLineStyles);
     const currentCategory = storeCategories((state) => state.currentCategory);

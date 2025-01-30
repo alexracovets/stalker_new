@@ -3,14 +3,10 @@
 import Image from "next/image";
 
 import { ButtonKeyUp } from "@components/molecules";
+import { ButtonFooterType } from "@types";
 import { cn } from "@utils";
 
-interface ButtonFooterProps {
-    action: "prev-item" | "next-item";
-    name: string;
-};
-
-export const ButtonFooter = ({ action, name }: ButtonFooterProps) => {
+export const ButtonFooter = ({ action, name }: ButtonFooterType) => {
 
     return (
         <div className="flex justify-start items-center gap-x-[1.6rem]  bg-footer p-[2rem]">

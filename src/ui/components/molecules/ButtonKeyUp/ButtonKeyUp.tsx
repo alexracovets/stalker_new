@@ -1,17 +1,10 @@
 "use client";
 
-import { ReactNode } from "react";
-
 import { useKeyboardActions } from "@hooks";
 import { Button } from "@components/atoms";
+import { ButtonKeyUpType } from "@types";
 
-interface ButtonKeyUpProps {
-	action: string;
-	children: ReactNode;
-	footer?: boolean;
-}
-
-export const ButtonKeyUp = ({ action, children, footer }: ButtonKeyUpProps) => {
+export const ButtonKeyUp = ({ action, children, footer }: ButtonKeyUpType) => {
 
 	const { actions } = useKeyboardActions();
 

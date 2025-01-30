@@ -1,46 +1,16 @@
 import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
 
-interface lineStyles_Type {
-    underline: {
-        left: string;
-        width: string;
-    };
-    shortline: {
-        left: string;
-        width: string;
-    };
-};
+import { NavDashType } from '@types';
 
-interface NavDash_Type {
-    isShow: boolean;
-    lineStyles: lineStyles_Type;
-    setIsShow: (value: boolean) => void;
-    setLineStyles: (value: lineStyles_Type) => void;
-}
-
-export const storeNavDash = create<NavDash_Type>()(
+export const storeNavDash = create<NavDashType>()(
     immer((set) => ({
         isShow: false,
         lineStyles: {
-            underline: {
-                left: "0px",
-                width: "0px"
-            },
-            shortline: {
-                left: "0px",
-                width: "0px"
-            },
+            underline: { left: "0px", width: "0px" },
+            shortline: { left: "0px", width: "0px" },
         },
-        setLineStyles: (value: lineStyles_Type) => {
-            set((state) => {
-                state.lineStyles = value;
-            });
-        },
-        setIsShow: (value: boolean) => {
-            set((state) => {
-                state.isShow = value;
-            });
-        },
+        setLineStyles: (value) => set((state) => { state.lineStyles = value; }),
+        setIsShow: (value) => set((state) => { state.isShow = value; }),
     }))
 );

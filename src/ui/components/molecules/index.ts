@@ -5,7 +5,7 @@ export { HeaderTopSide } from './HeaderTopSide';
 export { Internet } from './Internet';
 export { Timer } from './Timer';
 export { Navigation } from './Navigation';
-export { NavList } from './NavList';
+export { NavigationGroup } from './NavigationGroup';
 export { ButtonKeyUp } from './ButtonKeyUp';
 export { ButtonFooter } from './ButtonFooter';
 export { FooterButtonGroup } from './FooterButtonGroup';

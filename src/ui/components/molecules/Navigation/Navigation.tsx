@@ -1,7 +1,7 @@
 "use client";
 
 import { HeaderNavBg, NavigationWrapper } from "@components/atoms";
-import { ButtonKeyUp, NavList } from "@components/molecules";
+import { ButtonKeyUp, NavigationGroup } from "@components/molecules";
 
 export const Navigation = () => {
 
@@ -9,7 +9,7 @@ export const Navigation = () => {
         <NavigationWrapper>
             <HeaderNavBg />
             <ButtonKeyUp action="prev-category">Q</ButtonKeyUp>
-            <NavList />
+            <NavigationGroup />
             <ButtonKeyUp action="next-category">E</ButtonKeyUp>
         </NavigationWrapper>
     );
