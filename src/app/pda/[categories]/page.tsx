@@ -1,11 +1,9 @@
-import { generateMetadata } from "@utils";
+"use client";
 
-export const metadata = generateMetadata({
-    title: "PDA",
-    description: "Ласкаво просимо в базу даних Stalker 2",
-});
+import { useParams } from "next/navigation";
 
-export default async function Categories({ params }: { params: Promise<{ slug: string }> }) {
-    const slug = (await params).slug
-    return <div>My Post: {slug}</div>
+export default function Categories() {
+    const params = useParams();
+
+    return <p>Page: {params.categories}</p>;
 }
