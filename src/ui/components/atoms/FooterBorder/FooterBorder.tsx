@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const FooterBorder = () => {
     return (
-        <div className="absolute left-0 top-0 w-full h-full">
+        <div className="absolute left-0 top-0 w-full h-full select-none pointer-events-none">
             <div className="relative w-full h-full">
                 <div className="absolute left-0 top-0 w-full h-[.8rem]">
                     <div className="relative w-full h-full">

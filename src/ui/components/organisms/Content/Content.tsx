@@ -6,7 +6,7 @@ import { ContentBorder } from "@components/atoms";
 export const Content = ({ children }: JustChildren) => {
     return (
         <div
-            className=""
+            className="relative"
         >
             <ContentBorder />
             {children}

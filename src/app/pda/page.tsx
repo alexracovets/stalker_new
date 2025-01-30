@@ -1,4 +1,9 @@
-"use client";
+import { generateMetadata } from "@utils";
+
+export const metadata = generateMetadata({
+    title: "PDA",
+    description: "Ласкаво просимо в базу даних Stalker 2",
+});
 
 export default function PDA() {
     return (
