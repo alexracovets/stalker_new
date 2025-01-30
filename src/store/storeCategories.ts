@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
 
-import categories from "@/data/categories.json";
+import categories from "@data/categories.json";
 
 interface CategoriesStore_Type {
     categories: {

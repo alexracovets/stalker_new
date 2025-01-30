@@ -1,11 +1,10 @@
 "use client";
- 
+
+import { calibri, stalker, roboto, roboto_condensed, rethink } from '@fonts';
 import { JustChildren } from "@types";
+import { cn } from "@utils";
 
-import { calibri, stalker, roboto, roboto_condensed, rethink } from '@/ui/fonts';
-import { cn } from "@/utils"; 
-
-import '@/styles/globals.scss';
+import '@styles/globals.scss';
 
 export const DefaultLayout = ({ children }: Readonly<JustChildren>) => {
     return (

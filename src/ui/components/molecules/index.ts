@@ -7,3 +7,5 @@ export { Timer } from './Timer';
 export { Navigation } from './Navigation';
 export { NavList } from './NavList';
 export { ButtonKeyUp } from './ButtonKeyUp';
+export { ButtonFooter } from './ButtonFooter';
+export { FooterButtonGroup } from './FooterButtonGroup';

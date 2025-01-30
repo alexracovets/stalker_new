@@ -1,7 +1,7 @@
 "use client";
 
-import useEmblaCarousel, { type UseEmblaCarouselType } from "embla-carousel-react";
 import { forwardRef, createContext, useContext, useState, useEffect, useCallback, ComponentProps, HTMLAttributes, KeyboardEvent } from "react";
+import useEmblaCarousel, { type UseEmblaCarouselType } from "embla-carousel-react";
 
 import { Button } from "@components/atoms";
 import { cn } from "@utils";

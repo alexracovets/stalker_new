@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 
-import { useTimer } from "@/hooks";
-import { cn } from "@/utils";
+import { useTimer } from "@hooks";
+import { cn } from "@utils";
 
 export const Timer = () => {
     const { currentTime, isActive } = useTimer();

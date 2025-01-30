@@ -1,7 +1,7 @@
  
-import { generateMetadata } from "@/utils";
-import { PDALayout } from "@/ui/components/templates";
-import { JustChildren } from "@/types";
+import { generateMetadata } from "@utils";
+import { PDALayout } from "@components/templates";
+import { JustChildren } from "@types";
 
 export const metadata = generateMetadata({
     title: "PDA",

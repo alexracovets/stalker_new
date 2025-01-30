@@ -1,6 +1,6 @@
 "use client";
 
-import { storeCategories } from '@/store';
+import { storeCategories } from '@store';
 import { usePathname } from 'next/navigation'
 import { useEffect } from "react";
 

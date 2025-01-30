@@ -1,8 +1,9 @@
 "use client";
 
 import { cva, type VariantProps } from "class-variance-authority";
-import { cn } from "@/utils";
 import { createElement } from "react";
+
+import { cn } from "@utils";
 
 interface TextProps extends VariantProps<typeof textVariants> {
     children: React.ReactNode;

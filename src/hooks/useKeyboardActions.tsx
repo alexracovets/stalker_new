@@ -3,16 +3,16 @@
 import { useCallback, useMemo, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-import { storeCategories } from "@/store";
+import { storeCategories } from "@store";
 
-const useKeyboardActions = () => {
+export const useKeyboardActions = () => {
 	// Accessing state and actions from the store
 	const { categories, currentCategory } = storeCategories();
 	const router = useRouter();
 
 	const changeCategory = useCallback(
 		(direction: string) => {
-
+			console.log('1')
 			const currentIndex = categories.findIndex((category) => category.id === currentCategory);
 			let routePath = "";
 
@@ -62,5 +62,3 @@ const useKeyboardActions = () => {
 
 	return { actions };
 };
-
-export default useKeyboardActions;

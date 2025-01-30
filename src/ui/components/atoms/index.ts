@@ -12,3 +12,7 @@ export { FooterBorder } from './FooterBorder';
 export { SideBarBorder } from './SideBarBorder';
 export { HeaderBorder } from './HeaderBorder';
 export { ContentBorder } from './ContentBorder';
+export { MainWrapper } from './MainWrapper';
+export { HomeScreenWrapper } from './HomeScreenWrapper';
+export { FooterWrapper } from './FooterWrapper';
+export { ContentWrapper } from './ContentWrapper';

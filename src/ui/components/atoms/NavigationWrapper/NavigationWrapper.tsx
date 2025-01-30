@@ -1,6 +1,6 @@
 "use client";
 
-import { JustChildren } from "@/types";
+import { JustChildren } from "@types";
 
 export const NavigationWrapper = ({ children }: JustChildren) => {
     return (

@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import Link from "next/link";
 
-import { storeCategories } from "@store";
 import { NavDash } from "@components/atoms";
-import { useNavDash } from "@/hooks";
+import { storeCategories } from "@store";
+import { useNavDash } from "@hooks";
 import { cn } from "@utils";
 
 export const NavList = () => {
@@ -13,7 +13,7 @@ export const NavList = () => {
     const currentCategory = storeCategories(state => state.currentCategory);
     const categories = storeCategories(state => state.categories);
     const { setActiveCategory, setCurrentCategory } = useNavDash({ menuRef });
-    
+
     return (
         <nav className="h-full relative" ref={menuRef}>
             <ul

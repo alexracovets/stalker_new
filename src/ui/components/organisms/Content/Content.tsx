@@ -1,15 +1,13 @@
 "use client";
 
-import { JustChildren } from "@/types";
-import { ContentBorder } from "@components/atoms";
+import { ContentBorder, ContentWrapper } from "@components/atoms";
+import { JustChildren } from "@types";
 
 export const Content = ({ children }: JustChildren) => {
     return (
-        <div
-            className="relative"
-        >
+        <ContentWrapper>
             <ContentBorder />
             {children}
-        </div>
+        </ContentWrapper>
     );
 }

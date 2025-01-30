@@ -1,7 +1,7 @@
 "use client";
 
-import { useInternet } from "@/hooks";
-import { cn } from "@/utils";
+import { useInternet } from "@hooks";
+import { cn } from "@utils";
 
 export const Internet = () => {
     const isOnline = useInternet();

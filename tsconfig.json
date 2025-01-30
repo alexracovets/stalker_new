@@ -28,14 +28,23 @@
       "@utils": [
         "./src/utils"
       ],
+      "@hooks": [
+        "./src/hooks"
+      ],
       "@types": [
         "./src/types"
       ],
-      "@data": [
-        "./src/data"
+      "@data*": [
+        "./src/data/*"
       ],
       "@store": [
         "./src/store"
+      ],
+      "@fonts": [
+        "./src/ui/fonts"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
       ],
       "@components/atoms": [
         "./src/ui/components/atoms"
