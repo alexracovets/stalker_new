@@ -21,10 +21,10 @@ export const ButtonFooter = ({ action, children }: ButtonFooterType) => {
             className="flex justify-start items-center gap-x-[1.6rem]"
         >
             <ButtonKeyUp action={action} footer>
-                {
-                    action === "to-start" ?
-                        "X" :
-                        <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center">
+                    {
+                        action === "to-start" ?
+                            "X" :
                             <div className="relative w-[2rem] h-full">
                                 <Image
                                     src="/svg/arrow_destructive.svg"
@@ -36,12 +36,12 @@ export const ButtonFooter = ({ action, children }: ButtonFooterType) => {
                                     )}
                                 />
                             </div>
-                        </div>
-                }
+                    }
+                </div>
             </ButtonKeyUp>
             <div className="text-[1.8rem] text-pda-light_yellow font-roboto">
                 {children}
             </div>
-        </Button>
+        </Button >
     )
 };
