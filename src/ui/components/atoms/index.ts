@@ -8,3 +8,4 @@ export { NavDash } from './NavDash';
 export { HeaderTopWrapper } from './HeaderTopWrapper';
 export { NavigationWrapper } from './NavigationWrapper';
 export { Text } from './Text';
+export { FooterBorder } from './FooterBorder';
