@@ -19,3 +19,4 @@ export { ContentWrapper } from './ContentWrapper';
 export { NavigationGroupWrapper } from './NavigationGroupWrapper';
 export { NavigationLink } from './NavigationLink';
 export { NavigationGroupLinks } from './NavigationGroupLinks';
+export { SidebarWrapper } from './SidebarWrapper';

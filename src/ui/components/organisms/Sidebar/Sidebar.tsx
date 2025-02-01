@@ -1,11 +1,12 @@
 "use client";
 
-import { SideBarBorder } from "@components/atoms";
+import { SideBarBorder, SidebarWrapper } from "@components/atoms";
 
 export const Sidebar = () => {
     return (
-        <aside className="relative p-[.8rem]" >
+        <SidebarWrapper>
             <SideBarBorder />
-        </aside>
+            SideBar
+        </SidebarWrapper>
     );
 };
