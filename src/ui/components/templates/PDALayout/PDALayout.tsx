@@ -11,12 +11,7 @@ export const PDALayout = ({ children }: Readonly<JustChildren>) => {
     return (
         <>
             <Header />
-            <Main>
-                <Sidebar />
-                <Content>
-                    {children}
-                </Content>
-            </Main>
+            {children}
             <Footer />
         </>
     );
