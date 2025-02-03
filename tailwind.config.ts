@@ -35,6 +35,7 @@ export default {
 				pda: {
 					white: "#A8A3A0",
 					black: "#1D1C1A",
+					gray: "#1D1D1D",
 					border: "#403E3C",
 					destructive: "#CABFB0",
 					links: "#7B7A78",
