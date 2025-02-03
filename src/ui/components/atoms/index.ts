@@ -17,6 +17,7 @@ export { HeaderNavBg } from './HeaderNavBg';
 export { MainWrapper } from './MainWrapper';
 export { HeaderPlug } from './HeaderPlug';
 export { HomeVideo } from './HomeVideo';
+export { DashLine } from './DashLine';
 export { NavDash } from './NavDash';
 export { Button } from './Button';
 export { Input } from './Input';
