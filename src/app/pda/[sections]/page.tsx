@@ -13,14 +13,14 @@ interface SectionsPageType {
 }
 
 export default async function Sections({ params }: SectionsPageType) {
+    const { sections: id } = await params;
     const sectionData = sections.find((section: Section) =>
-        section.id === params.sections
+        section.id === id
     );
 
     if (!sectionData) {
         redirect("/pda/404");
     }
-
     return (
         <div>
             <h1>{sectionData.name}</h1>

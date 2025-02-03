@@ -2,7 +2,7 @@
 
 import { redirect } from "next/navigation";
 
-import sections from "@data/sections.json";
+import categories from "@data/sections.json";
 
 interface Category {
     id: string;
@@ -15,8 +15,9 @@ interface CategoriesPageType {
 }
 
 export default async function Categories({ params }: CategoriesPageType) {
-    const categoryData = sections.find((category: Category) =>
-        category.id === params.categories
+    const { categories: id } = await params;
+    const categoryData = categories.find((section: Category) =>
+        section.id === id
     );
 
     if (!categoryData) {
