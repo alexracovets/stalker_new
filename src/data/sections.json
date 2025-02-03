@@ -6,7 +6,8 @@
         "categories": [
             "armors",
             "masks",
-            "combo_armors"
+            "combo_armors",
+            "kits"
         ]
     },
     {
@@ -17,8 +18,9 @@
             "pistols",
             "automatics",
             "shotguns",
-            "rpgs",
-            "grenades",
+            "explosives",
+            "snipers",
+            "mods",
             "ammo"
         ]
     },
@@ -26,7 +28,12 @@
         "name": "Зона",
         "route": "/pda/zone",
         "id": "zone",
-        "categories": []
+        "categories": [
+            "locations",
+            "anomalies",
+            "artefacts",
+            "detectors"
+        ]
     },
     {
         "name": "Угруповання",

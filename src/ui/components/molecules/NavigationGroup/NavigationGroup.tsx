@@ -3,32 +3,32 @@
 import { useEffect, useRef } from "react";
 
 import { NavDash, NavigationGroupWrapper, NavigationLink, NavigationGroupLinks } from "@components/atoms";
-import { storeCategories } from "@store";
+import { storeSections } from "@store";
 import { useNavDash } from "@hooks";
 
 export const NavigationGroup = () => {
     const menuRef = useRef<HTMLDivElement>(null);
-    const { setActiveCategory, setCurrentCategory } = useNavDash({ menuRef });
-    const currentCategory = storeCategories(state => state.currentCategory);
-    const categories = storeCategories(state => state.categories);
+    const { setActiveSection, setCurrentSection } = useNavDash({ menuRef });
+    const currentSection = storeSections(state => state.currentSection);
+    const sections = storeSections(state => state.sections);
 
     useEffect(() => {
-        setCurrentCategory();
-    }, [setCurrentCategory]);
+        setCurrentSection();
+    }, [setCurrentSection]);
 
     return (
         <NavigationGroupWrapper menuRef={menuRef}>
-            <NavigationGroupLinks setCurrentCategory={setCurrentCategory}>
+            <NavigationGroupLinks setCurrentSection={setCurrentSection}>
                 {
-                    categories.map((category, idx) => {
+                    sections.map((section, idx) => {
                         return (
                             <NavigationLink
                                 key={idx}
-                                route={category.route}
-                                id={category.id}
-                                name={category.name}
-                                currentCategory={currentCategory}
-                                setActiveCategory={setActiveCategory}
+                                route={section.route}
+                                id={section.id}
+                                name={section.name}
+                                currentSection={currentSection}
+                                setActiveSection={setActiveSection}
                             />
                         )
                     })

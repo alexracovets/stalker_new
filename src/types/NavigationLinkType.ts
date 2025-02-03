@@ -6,6 +6,6 @@ export interface NavigationLinkType {
     route: string;
     id: string;
     name: string;
-    currentCategory: string;
-    setActiveCategory: (e: MouseEvent<HTMLAnchorElement>) => void;
+    currentSection: string;
+    setActiveSection: (e: MouseEvent<HTMLAnchorElement>) => void;
 }

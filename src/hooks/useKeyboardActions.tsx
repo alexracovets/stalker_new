@@ -3,46 +3,45 @@
 import { useCallback, useMemo, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-import { storeCategories } from "@store";
+import { storeSections } from "@store";
 
 export const useKeyboardActions = () => {
-	// Accessing state and actions from the store
-	const { categories, currentCategory } = storeCategories();
+	const { sections, currentSection } = storeSections();
 	const router = useRouter();
 
-	const changeCategory = useCallback(
+	const changeSection = useCallback(
 		(direction: string) => {
-			const currentIndex = categories.findIndex((category) => category.id === currentCategory);
+			const currentIndex = sections.findIndex((section) => section.id === currentSection);
 			let routePath = "";
 
 			switch (direction) {
 				case "prev":
-					routePath = categories[currentIndex === 0 ? categories.length - 1 : currentIndex - 1].id;
+					routePath = sections[currentIndex === 0 ? sections.length - 1 : currentIndex - 1].id;
 					break;
 				case "next":
-					routePath = categories[currentIndex === categories.length - 1 ? 0 : currentIndex + 1].id;
+					routePath = sections[currentIndex === sections.length - 1 ? 0 : currentIndex + 1].id;
 					break;
 			}
 
 			router.push(`/pda/${routePath}`);
 
 		},
-		[categories, currentCategory, router]
+		[sections, currentSection, router]
 	);
 
 	const actions: Record<string, () => void> = useMemo(
 		() => ({
-			"prev-category": () => changeCategory("prev"),
-			"next-category": () => changeCategory("next"),
+			"prev-section": () => changeSection("prev"),
+			"next-section": () => changeSection("next"),
 		}),
-		[changeCategory]
+		[changeSection]
 	);
 
 	const handleKeyPress = useCallback(
 		(event: KeyboardEvent) => {
 			const keyMap: Record<string, string> = {
-				"KeyQ": "prev-category",
-				"KeyE": "next-category",
+				"KeyQ": "prev-section",
+				"KeyE": "next-section",
 			};
 
 			const actionName = keyMap[event.code];

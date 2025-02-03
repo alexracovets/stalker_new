@@ -1,7 +1,7 @@
 export type { JustChildren } from './JustChildren';
 export type { NavDashRefType } from './NavDashRefType';
-export type { CategoriesStoreType } from './CategoriesStoreType';
-export type { CategoryType } from './CategoryType';
+export type { SectionsStoreType } from './SectionsStoreType';
+export type { SectionType } from './SectionType';
 export type { NavDashType } from './NavDashType';
 export type { LinesDashType } from './LinesDashType';
 export type { PdaStoreType } from './PdaStoreType';
@@ -10,3 +10,4 @@ export type { ButtonFooterType } from './ButtonFooterType';
 export type { NavigationGroupLinksType } from './NavigationGroupLinksType';
 export type { NavigationGroupWrapperType } from './NavigationGroupWrapperType';
 export type { NavigationLinkType } from './NavigationLinkType';
+export type { CategoryIconType } from './CategoryIconType';

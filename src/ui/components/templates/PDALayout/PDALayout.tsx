@@ -1,12 +1,12 @@
 "use client";
 
 import { Header, Footer, Main, Sidebar, Content } from "@components/organisms";
-import { useCheckCategories } from "@hooks";
+import { useCheckSection } from "@hooks";
 import { JustChildren } from "@types";
 
 export const PDALayout = ({ children }: Readonly<JustChildren>) => {
 
-    useCheckCategories();
+    useCheckSection();
 
     return (
         <>

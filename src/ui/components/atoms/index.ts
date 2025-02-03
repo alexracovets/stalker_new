@@ -1,4 +1,5 @@
 export { NavigationGroupWrapper } from './NavigationGroupWrapper';
+export { SidebarNavigationIcon } from './SidebarNavigationIcon';
 export { NavigationGroupLinks } from './NavigationGroupLinks';
 export { HomeScreenWrapper } from './HomeScreenWrapper';
 export { NavigationWrapper } from './NavigationWrapper';

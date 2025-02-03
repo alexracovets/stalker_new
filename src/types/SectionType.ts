@@ -1,7 +1,8 @@
 "use client";
 
-export interface CategoryType {
+export interface SectionType {
     id: string;
     name: string;
     route: string;
+    categories: string[];
 };

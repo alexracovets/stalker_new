@@ -2,8 +2,8 @@
 
 import { useParams } from "next/navigation";
 
-export default function Categories() {
+export default function Sections() {
     const params = useParams();
 
-    return <p>Page: {params.categories}</p>;
+    return <p>Page: {params.sections}</p>;
 }

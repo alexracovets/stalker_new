@@ -3,6 +3,6 @@
 import { ReactNode } from "react";
 
 export interface NavigationGroupLinksType {
-    setCurrentCategory: () => void;
+    setCurrentSection: () => void;
     children: ReactNode;
 }

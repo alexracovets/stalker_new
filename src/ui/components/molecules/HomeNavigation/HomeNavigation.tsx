@@ -1,11 +1,11 @@
 "use client";
 
-import { storePDA, storeCategories } from "@store";
+import { storePDA, storeSections } from "@store";
 import { cn } from "@utils";
 import Link from "next/link";
 
 export const HomeNavigation = () => {
-    const categories = storeCategories(state => state.categories);
+    const sections = storeSections(state => state.sections);
     const setIsPlayPDA = storePDA((state) => state.setIsPlay);
     const setIsOpenPDA = storePDA((state) => state.setIsOpen);
 
@@ -16,11 +16,11 @@ export const HomeNavigation = () => {
 
     return (
         <ul className="flex flex-col gap-y-[1.6rem] w-full">
-            {categories.map((category, idx) => {
+            {sections.map((section, idx) => {
                 return (
                     <li key={idx}>
                         <Link
-                            href={category.route}
+                            href={section.route}
                             onClick={openPDA}
                             className={cn(
                                 "transition ease-in-out duration-300 w-full cursor-pointer flex justify-center items-center",
@@ -30,7 +30,7 @@ export const HomeNavigation = () => {
                                 "active:after:opacity-[1] active:bg-regular-white active:text-primary-black"
                             )}
                         >
-                            {category.name}
+                            {section.name}
                         </Link>
                     </li>
                 );

@@ -1,5 +1,6 @@
-export { useTimer } from './useTimer';
+export { useSidebarNavigation } from './useSidebarNavigation';
+export { useCheckSection } from './useCheckSection';
+export { useKeyboardActions } from './useKeyboardActions'; 
 export { useInternet } from './useInternet';
 export { useNavDash } from './useNavDash';
-export { useCheckCategories } from './useCheckCategories';
-export { useKeyboardActions } from './useKeyboardActions';
+export { useTimer } from './useTimer';

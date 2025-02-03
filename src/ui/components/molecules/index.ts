@@ -1,4 +1,5 @@
 export { type CarouselApi, Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from './Carousel';
+export { SidebarNavigation } from './SidebarNavigation';
 export { FooterButtonGroup } from './FooterButtonGroup';
 export { NavigationGroup } from './NavigationGroup';
 export { HomeNavigation } from './HomeNavigation';
@@ -11,4 +12,3 @@ export { Navigation } from './Navigation';
 export { HomeMenu } from './HomeMenu';
 export { Internet } from './Internet';
 export { Timer } from './Timer';
- 

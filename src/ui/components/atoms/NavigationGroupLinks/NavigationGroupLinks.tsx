@@ -2,10 +2,10 @@
 
 import { NavigationGroupLinksType } from "@/types";
 
-export const NavigationGroupLinks = ({ setCurrentCategory, children }: NavigationGroupLinksType) => {
+export const NavigationGroupLinks = ({ setCurrentSection, children }: NavigationGroupLinksType) => {
     return (
         <ul
-            onMouseLeave={() => setCurrentCategory()}
+            onMouseLeave={() => setCurrentSection()}
             className="flex justify-center items-center gap-x-[8rem]"
         >
             {children}

@@ -2,15 +2,15 @@
 
 import { useCallback, MouseEvent } from "react";
 
-import { storeCategories, storeNavDash } from "@store";
+import { storeSections, storeNavDash } from "@store";
 import { NavDashRefType } from "@types";
 
 export const useNavDash = ({ menuRef }: NavDashRefType) => {
     const setIsShow = storeNavDash((state) => state.setIsShow);
     const setLineStyles = storeNavDash((state) => state.setLineStyles);
-    const currentCategory = storeCategories((state) => state.currentCategory);
+    const currentSection = storeSections((state) => state.currentSection);
 
-    const setActiveCategory = useCallback((e: MouseEvent<HTMLAnchorElement>) => {
+    const setActiveSection = useCallback((e: MouseEvent<HTMLAnchorElement>) => {
         const linkRect = e.currentTarget.getBoundingClientRect();
         const menuRect = menuRef.current?.getBoundingClientRect();
         const spanRect = e.currentTarget.querySelector('span')?.getBoundingClientRect();
@@ -31,13 +31,13 @@ export const useNavDash = ({ menuRef }: NavDashRefType) => {
         }
     }, [menuRef, setIsShow, setLineStyles]);
 
-    const setCurrentCategory = useCallback(() => {
-        const categoryElement = document.getElementById(currentCategory);
+    const setCurrentSection = useCallback(() => {
+        const sectionElement = document.getElementById(currentSection);
         const menuRect = menuRef.current?.getBoundingClientRect();
-        const spanRect = categoryElement?.querySelector('span')?.getBoundingClientRect();
+        const spanRect = sectionElement?.querySelector('span')?.getBoundingClientRect();
 
-        if (menuRect && categoryElement && spanRect) {
-            const linkRect = categoryElement.getBoundingClientRect();
+        if (menuRect && sectionElement && spanRect) {
+            const linkRect = sectionElement.getBoundingClientRect();
             setIsShow(true);
 
             setLineStyles({
@@ -51,7 +51,7 @@ export const useNavDash = ({ menuRef }: NavDashRefType) => {
                 }
             });
         }
-    }, [currentCategory, menuRef, setIsShow, setLineStyles]);
+    }, [currentSection, menuRef, setIsShow, setLineStyles]);
 
-    return { setActiveCategory, setCurrentCategory };
+    return { setActiveSection, setCurrentSection };
 };

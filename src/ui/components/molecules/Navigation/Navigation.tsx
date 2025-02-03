@@ -8,9 +8,9 @@ export const Navigation = () => {
     return (
         <NavigationWrapper>
             <HeaderNavBg />
-            <ButtonKeyUp action="prev-category">Q</ButtonKeyUp>
+            <ButtonKeyUp action="prev-section">Q</ButtonKeyUp>
             <NavigationGroup />
-            <ButtonKeyUp action="next-category">E</ButtonKeyUp>
+            <ButtonKeyUp action="next-section">E</ButtonKeyUp>
         </NavigationWrapper>
     );
 };

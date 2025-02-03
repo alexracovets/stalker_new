@@ -1,0 +1,1 @@
+export { SidebarNavigationIcon } from './SidebarNavigationIcon';
