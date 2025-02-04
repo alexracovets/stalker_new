@@ -1,26 +1,27 @@
-import { redirect } from "next/navigation";
+import { notFound } from "next/navigation";
 
 import sections from "@data/sections.json";
 
 interface Section {
     id: string;
     name: string;
-    description?: string;
 }
 
-interface SectionsPageType {
-    params: { sections: string };
+interface PageProps {
+    params: Promise<{ sections: string }>;
 }
 
-export default async function Sections({ params }: SectionsPageType) {
-    const { sections: id } = await params;
+export default async function Sections({ params }: PageProps) {
+    const { sections: sectionId } = await params;
+
     const sectionData = sections.find((section: Section) =>
-        section.id === id
+        section.id === sectionId
     );
 
     if (!sectionData) {
-        redirect("/pda/404");
+        notFound();
     }
+
     return (
         <div>
             <h1>{sectionData.name}</h1>

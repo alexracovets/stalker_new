@@ -1,6 +1,6 @@
 "use client";
 
-import { Header, Footer, Main, Sidebar, Content } from "@components/organisms";
+import { Header, Footer } from "@components/organisms";
 import { useCheckSection } from "@hooks";
 import { JustChildren } from "@types";
 
