@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 
-import categoriesPages from "@data/pages/map/categories.json";
+// import categoriesPages from "@data/pages/map/categories.json";
 
 interface PageProps {
     params: Promise<{
@@ -9,16 +9,16 @@ interface PageProps {
     }>;
 }
 
-export async function generateStaticParams() {
-    const pageMap = categoriesPages.map((page) => {
-        return {
-            sections: page.section,
-            categories: page.category
-        };
-    });
+// export async function generateStaticParams() {
+//     const pageMap = categoriesPages.map((page) => {
+//         return {
+//             sections: page.section,
+//             categories: page.category
+//         };
+//     });
 
-    return pageMap;
-}
+//     return pageMap;
+// }
 
 export default async function Categories({ params }: PageProps) {
     const { categories: category, sections: section } = await params;
@@ -33,7 +33,7 @@ export default async function Categories({ params }: PageProps) {
     return (
         <div>
             {
-                data.name
+                data?.name
             }
         </div>
     );
