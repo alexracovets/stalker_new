@@ -9,14 +9,38 @@
     "how_to_get": [
         "Початковий одяг."
     ],
-    "resistance": {
-        "thermal": 0.3,
-        "electricity": 0.3,
-        "chemicals": 0.3,
-        "radiation": 0.5,
-        "psi": 0,
-        "physical": 0.8
-    },
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.3
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 0.3
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 0.3
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 0.5
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 0
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 0.8
+        }
+    ],
     "details": {
         "weight": 3,
         "artefacts_slots": 1,

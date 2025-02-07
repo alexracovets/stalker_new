@@ -1,4 +1,4 @@
-export type { CategoryDataType, InfoPageDataType, SectionDataType } from './pagesData';
+export type { CategoryDataType, ElementsDataType, SectionDataType } from './pagesData';
 export type { NavigationGroupWrapperType } from './NavigationGroupWrapperType';
 export type { NavigationGroupLinksType } from './NavigationGroupLinksType';
 export type { NavigationLinkType } from './NavigationLinkType';

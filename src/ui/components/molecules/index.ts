@@ -7,6 +7,7 @@ export { HomeNavigation } from './HomeNavigation';
 export { CategoriesFill } from './CategoriesFill';
 export { HeaderTopSide } from './HeaderTopSide';
 export { ButtonFooter } from './ButtonFooter';
+export { ProtectValue } from './ProtectValue';
 export { ButtonKeyUp } from './ButtonKeyUp';
 export { SearchPages } from './SearchPages';
 export { Navigation } from './Navigation';

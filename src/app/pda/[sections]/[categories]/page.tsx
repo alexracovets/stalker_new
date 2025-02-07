@@ -20,14 +20,11 @@ interface PageProps {
 
 export default async function Categories({ params }: PageProps) {
     const { categories: category, sections: section } = await params;
-    let data;
-    let isData = true;
+    let data; 
 
     try {
         data = (await import(`@data/pages/sections/${section}/${category}.json`)).default;
-    } catch {
-        isData = false;
-    }
+    } catch {}
 
     return (
         <div>
