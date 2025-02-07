@@ -24,3 +24,4 @@ export { Input } from './Input';
 export { Logo } from './Logo';
 export { Text } from './Text';
 export { Block404 } from './Block404';
+export { CustomScroll } from './CustomScroll';
