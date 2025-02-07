@@ -3,20 +3,28 @@
 import { DashLine } from "@components/atoms";
 import Link from "next/link";
 
+import protectsData from "@data/pages/protects.json";
+
 export default function Protects() {
     return (
         <div>
             <h1 className="text-[3.4rem] text-pda-destructive font-[500] font-roboto_condensed mb-[1rem]">
-                Захист
+                {protectsData.section_title}
             </h1>
             <h3 className="text-[1.8rem] text-pda-orange font-roboto mb-[1.2rem]">
-                Категорії
+                {protectsData.section_sub_title}
             </h3>
             <DashLine />
             <div
                 className="flex flex-col w-full text-[2rem] text-pda-white leading-[2.9rem] font-roboto "
             >
-                <p>Опис про Захист _коротка інфо_</p>
+                {
+                    protectsData.section_info.map((info, idx) => {
+                        return (
+                            <p key={idx}>{info}</p>
+                        )
+                    })
+                }
             </div>
             <ul>
                 <li>

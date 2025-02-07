@@ -34,7 +34,7 @@
       "@types": [
         "./src/types"
       ],
-      "@data*": [
+      "@data/*": [
         "./src/data/*"
       ],
       "@store": [
