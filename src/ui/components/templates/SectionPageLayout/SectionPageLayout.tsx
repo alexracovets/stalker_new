@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { DashLine } from "@components/atoms";
+import { DashLine, Block404 } from "@components/atoms";
 import { SectionDataType } from "@/types";
 
 interface SectionPageLayoutProps {
@@ -55,10 +55,7 @@ export const SectionPageLayout = ({ data }: SectionPageLayoutProps) => {
                         }
                     </ul>
                 </div > :
-                    <div className="flex flex-grow flex-col items-center justify-center h-full">
-                        <h1 className="text-4xl font-bold mb-4">404 - Сторінку не знайдено</h1>
-                        <p className="mb-4">Вибачте, але такої сторінки не існує.</p>
-                    </div>
+                    <Block404 />
             }
         </>
     );

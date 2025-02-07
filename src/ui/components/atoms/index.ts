@@ -23,3 +23,4 @@ export { Button } from './Button';
 export { Input } from './Input';
 export { Logo } from './Logo';
 export { Text } from './Text';
+export { Block404 } from './Block404';

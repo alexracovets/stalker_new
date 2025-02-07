@@ -1,6 +1,6 @@
-import { notFound } from "next/navigation";
 
 // import elementsPages from "@data/pages/map/elements.json";
+import { Block404 } from "@components/atoms";
 
 interface PageProps {
     params: Promise<{
@@ -25,16 +25,22 @@ interface PageProps {
 export default async function Elements({ params }: PageProps) {
     const { categories: category, sections: section, elements: element } = await params;
     let data;
+    let isData = true;
 
     try {
         data = (await import(`@data/pages/sections/${section}/${category}/${element}.json`)).default;
     } catch {
-        return notFound();
+        isData = false;
     }
 
     return (
         <div>
-            {data?.name}
+            {
+                data ?
+                    data.name
+                    :
+                    <Block404 />
+            }
         </div>
     );
 }
