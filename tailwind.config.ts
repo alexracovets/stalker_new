@@ -46,6 +46,9 @@ export default {
 					light_yellow: "#C2BDB7",
 					footer: "#1E1C1A",
 					ico: "#1E1C19",
+					value: "#BE7912",
+					value_bg: "#282828",
+					value_border: "#100F0E"
 				},
 				gradient: {
 					colorOne: "#898883",

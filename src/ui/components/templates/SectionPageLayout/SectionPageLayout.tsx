@@ -14,7 +14,7 @@ export const SectionPageLayout = ({ data }: SectionPageLayoutProps) => {
         <>
             {
                 data ? <div>
-                    < h1 className="text-[3.4rem] text-pda-destructive font-[500] font-roboto_condensed mb-[1rem]" >
+                    <h1 className="text-[3.4rem] text-pda-destructive font-[500] font-roboto_condensed mb-[1rem]" >
                         {data.name}
                     </h1 >
                     <h3 className="text-[1.8rem] text-pda-orange font-roboto mb-[1.2rem]">
@@ -22,7 +22,7 @@ export const SectionPageLayout = ({ data }: SectionPageLayoutProps) => {
                     </h3>
                     <DashLine />
                     <div
-                        className="flex flex-col w-full text-[2rem] text-pda-white leading-[2.9rem] font-roboto "
+                        className="flex flex-col w-full text-[2rem] text-pda-white leading-[2.9rem] font-roboto"
                     >
                         {
                             data.info.map((info, idx) => {

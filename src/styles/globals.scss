@@ -47,4 +47,9 @@ html {
   .bg-custom-gradient_second {
     background: linear-gradient(to top, #837F7C, #C9C2B2, #C9C2B2, #837F7C);
   }
+
+  .border-value {
+    border-image: linear-gradient(to bottom, #CF8414 0%, #714D19 100%) 1;
+    border-width: .1rem;
+  }
 }

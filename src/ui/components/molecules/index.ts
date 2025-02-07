@@ -2,6 +2,7 @@ export { type CarouselApi, Carousel, CarouselContent, CarouselItem, CarouselPrev
 export { SidebarNavigation } from './SidebarNavigation';
 export { FooterButtonGroup } from './FooterButtonGroup';
 export { NavigationGroup } from './NavigationGroup';
+export { ArmorProtection } from './ArmorProtection';
 export { HomeNavigation } from './HomeNavigation';
 export { CategoriesFill } from './CategoriesFill';
 export { HeaderTopSide } from './HeaderTopSide';

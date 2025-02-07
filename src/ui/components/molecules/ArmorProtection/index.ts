@@ -1,0 +1,1 @@
+export { ArmorProtection } from './ArmorProtection';
