@@ -28,7 +28,7 @@ export const TestPage = ({ data }: TestPageType) => {
             >
                 <div className="flex flex-col flex-grow">
                     <TitleBlock name={data.name} title={data.title} />
-                    <InfoBlock infoes={data.info} />
+                    <InfoBlock infoes={data.info} how_to_get={data.how_to_get} />
                     <ArmorProtection resistance={data.resistance} />
                 </div>
                 <div
@@ -37,7 +37,7 @@ export const TestPage = ({ data }: TestPageType) => {
                     <div
                         className="relative w-[38.8rem] h-[38.8rem]"
                     >
-                        <Image src={data.image} alt={data.name} fill className="object-cover" />
+                        <Image src={data.image} alt={data.name} fill className="object-cover" priority />
                     </div>
                 </div>
             </div >

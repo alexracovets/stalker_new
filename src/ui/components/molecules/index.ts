@@ -17,3 +17,4 @@ export { Timer } from './Timer';
 
 export { InfoBlock } from './InfoBlock';
 export { TitleBlock } from './TitleBlock';
+export { PageListBlock } from './PageListBlock';

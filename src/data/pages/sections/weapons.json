@@ -8,7 +8,7 @@
     "links": [
         {
             "route": "/pda/weapons/pistols",
-            "name": "Костюми",
+            "name": "Пістолети",
             "sub_links": [
                 {
                     "route": "/pda/weapons/pistols/pm",
