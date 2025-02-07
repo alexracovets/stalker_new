@@ -112,7 +112,6 @@ export const SidebarNavigationIcon = ({ name, active }: IconCategoryType) => {
                     />
                 );
             default:
-                console.warn(`Icon ${name} not found`);
                 return null;
         }
     }

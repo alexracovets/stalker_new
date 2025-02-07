@@ -1,0 +1,84 @@
+[
+    {
+        "section_name": "protects",
+        "section_title": "Захист",
+        "section_sub_title": "Категорії",
+        "section_info": [
+            "Опис про Захист 'коротке інфо'"
+        ],
+        "categoryes": [
+            {
+                "category_name": "armors",
+                "category_title": "Костюми",
+                "category_route": "armors",
+                "info_pages": [
+                    {
+                        "page_name": "leather_jacket",
+                        "page_title": "Шкіряна куртка",
+                        "page_sub_title": "Костюм",
+                        "page_info": [
+                            "Звичайна куртка. Забезпечує основний захист від дощу, холоду та, можливо, укусів щурів. Будь-яка стійкість проти радіації чи аномалій залишається прекрасною мрією."
+                        ],
+                        "how_to_get": [
+                            "Початковий одяг."
+                        ],
+                        "resistance": {
+                            "thermal": 0.3,
+                            "electricity": 0.3,
+                            "chemicals": 0.3,
+                            "radiation": 0.5,
+                            "psi": 0,
+                            "physical": 0.8
+                        },
+                        "more_info": {
+                            "weight": 2,
+                            "artefacts_slots": 1,
+                            "cost": 11252
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "section_name": "weapons",
+        "section_title": "Зброя",
+        "section_sub_title": "Категорії",
+        "section_info": [
+            "Опис про Зброя 'коротке інфо'"
+        ],
+        "categoryes": [
+            {
+                "category_name": "pistols",
+                "category_title": "Пістолети",
+                "category_route": "pistols",
+                "info_pages": [
+                    {
+                        "page_name": "pm",
+                        "page_title": "ПМ",
+                        "page_sub_title": "Пістолети",
+                        "page_info": [
+                            "Службовий пістолет, модернізований. Розроблений у 60-х роках для оснащення офіцерів поліції та армії в країнах Східного блоку. Популярний в Зоні завдяки своїй надійності."
+                        ],
+                        "how_to_get": [
+                            "Початковий одяг."
+                        ],
+                        "resistance": {
+                            "thermal": 0.3,
+                            "electricity": 0.3,
+                            "chemicals": 0.3,
+                            "radiation": 0.5,
+                            "psi": 0,
+                            "physical": 0.8
+                        },
+                        "more_info": {
+                            "weight": 2,
+                            "artefacts_slots": 1,
+                            "cost": 11252
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

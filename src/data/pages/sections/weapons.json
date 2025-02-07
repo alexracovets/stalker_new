@@ -1,0 +1,20 @@
+{
+    "route": "/pda/weapons",
+    "name": "Зброя",
+    "title": "Категорії",
+    "info": [
+        "Опис про Зброя 'коротке інфо'"
+    ],
+    "links": [
+        {
+            "route": "/pda/weapons/pistols",
+            "name": "Костюми",
+            "sub_links": [
+                {
+                    "route": "/pda/weapons/pistols/pm",
+                    "name": "ПМ"
+                }
+            ]
+        }
+    ]
+}

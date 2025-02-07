@@ -1,0 +1,17 @@
+[
+    {
+        "section": "protects",
+        "category": "armors",
+        "element": "leather_jacket"
+    },
+    {
+        "section": "protects",
+        "category": "armors",
+        "element": "debut_costume"
+    },
+    {
+        "section": "weapons",
+        "category": "pistols",
+        "element": "pm"
+    }
+]

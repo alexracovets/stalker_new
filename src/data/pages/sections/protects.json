@@ -1,0 +1,24 @@
+{
+  "route": "/pda/protects",
+  "name": "Захист",
+  "title": "Категорії",
+  "info": [
+    "Опис про Захист 'коротке інфо'"
+  ],
+  "links": [
+    {
+      "route": "/pda/protects/armors",
+      "name": "Костюми",
+      "sub_links": [
+        {
+          "route": "/pda/protects/armors/debut_costume",
+          "name": "Дебютний костюм"
+        },
+        {
+          "route": "/pda/protects/armors/leather_jacket",
+          "name": "Шкіряна куртка"
+        }
+      ]
+    }
+  ]
+}

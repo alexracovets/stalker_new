@@ -1,0 +1,1 @@
+export { SectionPageLayout } from './SectionPageLayout';
