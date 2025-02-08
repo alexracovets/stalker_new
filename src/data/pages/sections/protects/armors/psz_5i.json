@@ -1,11 +1,11 @@
 {
-    "route_name": "leather_jacket",
-    "route:": "/pda/protects/armors/leather_jacket",
-    "name": "Шкіряна куртка",
+    "route_name": "psz_5i",
+    "route:": "/pda/protects/armors/psz_5i",
+    "name": "ПСЗ-5І Яструб",
     "title": "Броня – Костюми",
-    "image": "/pda/protects/armors/leather_jacket.png",
+    "image": "/pda/protects/armors/psz_5i.png",
     "info": [
-        "Звичайна куртка. Забезпечує основний захист від дощу, холоду та, можливо, укусів щурів. Будь-яка стійкість проти радіації чи аномалій залишається прекрасною мрією."
+        "Армійський костюм серії ПСЗ-5, модернізований Новіковим. Очевидно, що армійські стандарти не передбачають зонального захисту, тому броня потребувала серйозних налаштувань."
     ],
     "how_to_get": [
         "Початковий одяг."
@@ -14,22 +14,22 @@
         {
             "name": "Тепловий",
             "image": "/svg/thermal.svg",
-            "value": 0.3
+            "value": 0.8
         },
         {
             "name": "Електричний",
             "image": "/svg/electrical.svg",
-            "value": 0.3
+            "value": 0.7
         },
         {
             "name": "Хімічний",
             "image": "/svg/chemical.svg",
-            "value": 0.3
+            "value": 0.8
         },
         {
             "name": "Радіаційний",
             "image": "/svg/radiation.svg",
-            "value": 0.5
+            "value": 2.1
         },
         {
             "name": "Псі",
@@ -39,12 +39,12 @@
         {
             "name": "Фізичний",
             "image": "/svg/physical.svg",
-            "value": 0.8
+            "value": 2.3
         }
     ],
     "details": {
-        "weight": 2,
-        "artefacts_slots": 1,
-        "cost": 11252
+        "weight": 7,
+        "artefacts_slots": 2,
+        "cost": 41000
     }
 }

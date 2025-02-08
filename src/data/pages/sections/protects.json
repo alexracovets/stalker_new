@@ -17,6 +17,70 @@
         {
           "route": "/pda/protects/armors/leather_jacket",
           "name": "Шкіряна куртка"
+        },
+        {
+          "route": "/pda/protects/armors/bandit_jacket",
+          "name": "Бандитська куртка"
+        },
+        {
+          "route": "/pda/protects/armors/armored_bandit_jacket",
+          "name": "Броньована бандитська куртка"
+        },
+        {
+          "route": "/pda/protects/armors/wind_of_freedom",
+          "name": "Костюм “Вітер свободи”"
+        },
+        {
+          "route": "/pda/protects/armors/recruit_suit",
+          "name": "Бронежилет для новобранця"
+        },
+        {
+          "route": "/pda/protects/armors/ozk_explorers_suit",
+          "name": "Костюм дослідника ЗЗК"
+        },
+        {
+          "route": "/pda/protects/armors/marauder_suit",
+          "name": "Костюм мародера"
+        },
+        {
+          "route": "/pda/protects/armors/mercenary_suit",
+          "name": "Костюм найманця"
+        },
+        {
+          "route": "/pda/protects/armors/psz_7",
+          "name": "Військовий бронежилет ПСЗ-7"
+        },
+        {
+          "route": "/pda/protects/armors/sunrise_suit",
+          "name": "Комбінезон “Зоря”"
+        },
+        {
+          "route": "/pda/protects/armors/tourist_sunrise_suit",
+          "name": "Туристичний комбінезон “Зоря”"
+        },
+        {
+          "route": "/pda/protects/armors/psz_5v",
+          "name": "ПСЗ-5В Вартовий свободи"
+        },
+        {
+          "route": "/pda/protects/armors/psz_5d",
+          "name": "Універсальний захист ПСЗ-5Д"
+        },
+        {
+          "route": "/pda/protects/armors/psz_5i",
+          "name": "ПСЗ-5І Яструб"
+        },
+        {
+          "route": "/pda/protects/armors/zircon_suit",
+          "name": "Костюм Циркон"
+        },
+        {
+          "route": "/pda/protects/armors/psz_20w",
+          "name": "Конвой ПСЗ-20В"
+        },
+        {
+          "route": "/pda/protects/armors/x7_suit",
+          "name": "Захисний костюм X-7"
         }
       ]
     }

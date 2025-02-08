@@ -1,11 +1,12 @@
 {
-    "route_name": "leather_jacket",
-    "route:": "/pda/protects/armors/leather_jacket",
-    "name": "Шкіряна куртка",
+    "route_name": "x7_suit",
+    "route:": "/pda/protects/armors/x7_suit",
+    "name": "Захисний костюм X-7",
     "title": "Броня – Костюми",
-    "image": "/pda/protects/armors/leather_jacket.png",
+    "image": "/pda/protects/armors/x7_suit.png",
     "info": [
-        "Звичайна куртка. Забезпечує основний захист від дощу, холоду та, можливо, укусів щурів. Будь-яка стійкість проти радіації чи аномалій залишається прекрасною мрією."
+        "Спеціальний комплект спорядження, розроблений для роботи в умовах X7 Lab.",
+        "Походження невідоме."
     ],
     "how_to_get": [
         "Початковий одяг."
@@ -14,22 +15,22 @@
         {
             "name": "Тепловий",
             "image": "/svg/thermal.svg",
-            "value": 0.3
+            "value": 2.3
         },
         {
             "name": "Електричний",
             "image": "/svg/electrical.svg",
-            "value": 0.3
+            "value": 2.3
         },
         {
             "name": "Хімічний",
             "image": "/svg/chemical.svg",
-            "value": 0.3
+            "value": 2.3
         },
         {
             "name": "Радіаційний",
             "image": "/svg/radiation.svg",
-            "value": 0.5
+            "value": 4
         },
         {
             "name": "Псі",
@@ -39,12 +40,12 @@
         {
             "name": "Фізичний",
             "image": "/svg/physical.svg",
-            "value": 0.8
+            "value": 4
         }
     ],
     "details": {
-        "weight": 2,
-        "artefacts_slots": 1,
-        "cost": 11252
+        "weight": 7,
+        "artefacts_slots": 5,
+        "cost": 80000
     }
 }

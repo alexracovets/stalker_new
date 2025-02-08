@@ -1,11 +1,11 @@
 {
-    "route_name": "debut_costume",
-    "route:": "/pda/protects/armors/debut_costume",
-    "name": "Дебютний костюм",
+    "route_name": "bandit_jacket",
+    "route:": "/pda/protects/armors/bandit_jacket",
+    "name": "Бандитська куртка",
     "title": "Броня – Костюми",
-    "image": "/pda/protects/armors/debut_costume.png",
+    "image": "/pda/protects/armors/bandit_jacket.png",
     "info": [
-        "В основному це куртка, посилена арамідними волокнами та нейлоновою ниткою, доповнена базовою несучою системою. Це слугує мінімумом для виживання. Цей костюм не захищає від аномалій і не зупинить кулю, але його простота та економічність роблять його практичним вибором."
+        "Недорога темна куртка, яку всюди носять бандити. Насправді це не захистить вас, але змусить вас виглядати дурно."
     ],
     "how_to_get": [
         "Початковий одяг."
@@ -19,7 +19,7 @@
         {
             "name": "Електричний",
             "image": "/svg/electrical.svg",
-            "value": 0.2
+            "value": 0.3
         },
         {
             "name": "Хімічний",
@@ -29,7 +29,7 @@
         {
             "name": "Радіаційний",
             "image": "/svg/radiation.svg",
-            "value": 0.5
+            "value": 0
         },
         {
             "name": "Псі",
@@ -45,6 +45,6 @@
     "details": {
         "weight": 3,
         "artefacts_slots": 1,
-        "cost": 13500
+        "cost": 17200
     }
 }

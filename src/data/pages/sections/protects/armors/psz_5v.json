@@ -1,0 +1,51 @@
+{
+    "route_name": "psz_5v",
+    "route:": "/pda/protects/armors/psz_5v",
+    "name": "ПСЗ-5В Вартовий свободи",
+    "title": "Броня – Костюми",
+    "image": "/pda/protects/armors/psz_5v.png",
+    "info": [
+        "Версія “Волі” одного з найпопулярніших броньованих костюмів Зони. Ця модифікація надає перевагу всебічній універсальності без будь-якого конкретного фокусу.",
+        "Покращена версія Freedom PSZ-5. Це звичайна солдатська броня “Волі” - прим. редактора."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.8
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 0.7
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 0.9
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 2.1
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 0
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 2.2
+        }
+    ],
+    "details": {
+        "weight": 7,
+        "artefacts_slots": 2,
+        "cost": 34920
+    }
+}

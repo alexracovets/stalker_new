@@ -1,10 +1,22 @@
 "use client";
 
 import Scrollbars from "react-custom-scrollbars-2";
+import { useEffect, useState } from "react";
 
 import { JustChildren } from "@/types";
 
 export const CustomScroll = ({ children }: JustChildren) => {
+    const [isMounted, setIsMounted] = useState(false);
+
+    useEffect(() => {
+        setIsMounted(true);
+    }, []);
+
+    if (!isMounted) {
+        return null;
+    }
+
+
     return (
         <>
             <Scrollbars

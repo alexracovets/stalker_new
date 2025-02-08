@@ -1,0 +1,51 @@
+{
+    "route_name": "ozk_explorers_suit",
+    "route:": "/pda/protects/armors/ozk_explorers_suit",
+    "name": "Костюм дослідника ЗЗК",
+    "title": "Броня – Костюми",
+    "image": "/pda/protects/armors/ozk_explorers_suit.png",
+    "info": [
+        "Цей захисний костюм, що складається з гумового комбінезона та протигаза, адаптований до невблаганних умов Зони, що значно підвищує шанси власника вижити в аномально та радіаційно забруднених районах.",
+        "Загальновійськовий захисний комплект (ЗЗК) - прим. редактора."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.4
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 0.7
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 0.8
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 0.5
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 0
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 1.6
+        }
+    ],
+    "details": {
+        "weight": 6,
+        "artefacts_slots": 2,
+        "cost": 21049
+    }
+}

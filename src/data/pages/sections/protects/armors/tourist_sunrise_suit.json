@@ -1,0 +1,51 @@
+{
+    "route_name": "tourist_sunrise_suit",
+    "route:": "/pda/protects/armors/tourist_sunrise_suit",
+    "name": "Туристичний комбінезон “Зоря”",
+    "title": "Броня – Костюми",
+    "image": "/pda/protects/armors/tourist_sunrise_suit.png",
+    "info": [
+        "Колишній власник цього костюма чудово розумівся на розподілі ваги та ешелонуванні спорядження. Перероблені кишені, корсет, що розвантажує спину, додаткові сумки та дорожній рюкзак дозволяють носити з собою більшу вагу, що дуже зручно під час тривалих рейдів у Зону.",
+        "* Спец. пропозиція попереднього замовлення - прим. редактора."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.7
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 0.6
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 0.7
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 1.6
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 0
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 2.1
+        }
+    ],
+    "details": {
+        "weight": 3,
+        "artefacts_slots": 2,
+        "cost": 57900
+    }
+}

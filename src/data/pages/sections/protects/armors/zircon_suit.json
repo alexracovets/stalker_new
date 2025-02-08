@@ -1,11 +1,11 @@
 {
-    "route_name": "leather_jacket",
-    "route:": "/pda/protects/armors/leather_jacket",
-    "name": "Шкіряна куртка",
+    "route_name": "zircon_suit",
+    "route:": "/pda/protects/armors/zircon_suit",
+    "name": "Костюм Циркон",
     "title": "Броня – Костюми",
-    "image": "/pda/protects/armors/leather_jacket.png",
+    "image": "/pda/protects/armors/zircon_suit.png",
     "info": [
-        "Звичайна куртка. Забезпечує основний захист від дощу, холоду та, можливо, укусів щурів. Будь-яка стійкість проти радіації чи аномалій залишається прекрасною мрією."
+        "Костюм сталкера Monolith, виробник невідомий. Сам вигляд цього костюма лякав будь-якого жителя Зони. Навіть зараз, просто дивлячись на це, викликає у вас неприємні емоції."
     ],
     "how_to_get": [
         "Початковий одяг."
@@ -14,22 +14,22 @@
         {
             "name": "Тепловий",
             "image": "/svg/thermal.svg",
-            "value": 0.3
+            "value": 0.55
         },
         {
             "name": "Електричний",
             "image": "/svg/electrical.svg",
-            "value": 0.3
+            "value": 0.6
         },
         {
             "name": "Хімічний",
             "image": "/svg/chemical.svg",
-            "value": 0.3
+            "value": 0.6
         },
         {
             "name": "Радіаційний",
             "image": "/svg/radiation.svg",
-            "value": 0.5
+            "value": 2.1
         },
         {
             "name": "Псі",
@@ -39,12 +39,12 @@
         {
             "name": "Фізичний",
             "image": "/svg/physical.svg",
-            "value": 0.8
+            "value": 2.4
         }
     ],
     "details": {
-        "weight": 2,
-        "artefacts_slots": 1,
-        "cost": 11252
+        "weight": 5,
+        "artefacts_slots": 3,
+        "cost": 51000
     }
 }

@@ -1,11 +1,11 @@
 {
-    "route_name": "leather_jacket",
-    "route:": "/pda/protects/armors/leather_jacket",
-    "name": "Шкіряна куртка",
+    "route_name": "marauder_suit",
+    "route:": "/pda/protects/armors/marauder_suit",
+    "name": "Костюм мародера",
     "title": "Броня – Костюми",
-    "image": "/pda/protects/armors/leather_jacket.png",
+    "image": "/pda/protects/armors/marauder_suit.png",
     "info": [
-        "Звичайна куртка. Забезпечує основний захист від дощу, холоду та, можливо, укусів щурів. Будь-яка стійкість проти радіації чи аномалій залишається прекрасною мрією."
+        "? Поєднання стильної куртки та гідного бронежилета. Це вбрання може бути не найкращим вибором для дослідження аномалій, але підійде до того, щоб забрати речі з нещасного сталкера."
     ],
     "how_to_get": [
         "Початковий одяг."
@@ -14,22 +14,22 @@
         {
             "name": "Тепловий",
             "image": "/svg/thermal.svg",
-            "value": 0.3
+            "value": 0.4
         },
         {
             "name": "Електричний",
             "image": "/svg/electrical.svg",
-            "value": 0.3
+            "value": 0.4
         },
         {
             "name": "Хімічний",
             "image": "/svg/chemical.svg",
-            "value": 0.3
+            "value": 0.5
         },
         {
             "name": "Радіаційний",
             "image": "/svg/radiation.svg",
-            "value": 0.5
+            "value": 1.6
         },
         {
             "name": "Псі",
@@ -39,12 +39,12 @@
         {
             "name": "Фізичний",
             "image": "/svg/physical.svg",
-            "value": 0.8
+            "value": 1.9
         }
     ],
     "details": {
-        "weight": 2,
+        "weight": 5,
         "artefacts_slots": 1,
-        "cost": 11252
+        "cost": 22800
     }
 }

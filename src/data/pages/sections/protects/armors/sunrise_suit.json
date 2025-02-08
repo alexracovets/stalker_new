@@ -1,0 +1,50 @@
+{
+    "route_name": "sunrise_suit",
+    "route:": "/pda/protects/armors/sunrise_suit",
+    "name": "Комбінезон “Зоря”",
+    "title": "Броня – Костюми",
+    "image": "/pda/protects/armors/sunrise_suit.png",
+    "info": [
+        "Шедевр місцевої майстерності, цей костюм поєднує в собі два шари прогумованої тканини з полімерною підкладкою та бронежилет, ефективний проти пістолетних куль. Розумна ціна “Зорі” і потенціал для оновлення зміцнили статус костюма як  товару, що найбільш продається."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.7
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 0.6
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 0.7
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 1.5
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 0
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 2.1
+        }
+    ],
+    "details": {
+        "weight": 4,
+        "artefacts_slots": 2,
+        "cost": 34920
+    }
+}
