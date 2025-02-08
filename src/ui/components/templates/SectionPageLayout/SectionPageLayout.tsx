@@ -1,6 +1,4 @@
-"use client";
-
-import Link from "next/link";
+"use client"; 
 
 import { TitleBlock, InfoBlock, PageListBlock } from "@components/molecules";
 import { Block404 } from "@components/atoms";
