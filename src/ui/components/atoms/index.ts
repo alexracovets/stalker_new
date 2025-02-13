@@ -26,3 +26,7 @@ export { Button } from './Button';
 export { Input } from './Input';
 export { Logo } from './Logo';
 export { Text } from './Text';
+
+export { ElementsInnerLeft } from './ElementsInnerLeft';
+export { ElementsInnerRight } from './ElementsInnerRight';
+export { ElementsWrapper } from './ElementsWrapper';

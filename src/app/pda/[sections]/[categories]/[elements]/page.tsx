@@ -1,5 +1,5 @@
 
-import { ArmorTemplate } from "@components/templates";
+import { ArmorTemplate, MaskTemplate } from "@components/templates";
 import { Block404 } from "@components/atoms";
 
 interface PageProps {
@@ -24,9 +24,16 @@ export default async function Elements({ params }: PageProps) {
         >
             {
                 data ? <>
-                    {
-                        data.type === "armor" ? <ArmorTemplate data={data} /> : null
-                    }
+                    {(() => {
+                        switch (data.type) {
+                            case "armor":
+                                return <ArmorTemplate {...data} />;
+                            case "mask":
+                                return <MaskTemplate {...data} />;
+                            default:
+                                return null;
+                        }
+                    })()}
                 </>
                     : <Block404 />
             }

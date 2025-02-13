@@ -1,0 +1,1 @@
+export { ProtectionBlock } from './ProtectionBlock';

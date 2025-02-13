@@ -2,7 +2,7 @@
 
 import { ProtectValue } from "../ProtectValue";
 
-interface ArmorProtectionProps {
+interface ProtectionBlockProps {
     resistance: {
         name: string;
         value: number;
@@ -10,7 +10,7 @@ interface ArmorProtectionProps {
     }[];
 };
 
-export const ArmorProtection = ({ resistance }: ArmorProtectionProps) => {
+export const ProtectionBlock = ({ resistance }: ProtectionBlockProps) => {
 
     return (
         <table

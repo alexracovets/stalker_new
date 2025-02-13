@@ -1,10 +1,10 @@
 "use client";
 
-import { ProtectionBlock, InfoBlock, TitleBlock, ElementsShowImage, ElementsDetails } from "@components/molecules";
 import { ElementsInnerLeft, ElementsInnerRight, ElementsWrapper } from "@components/atoms";
+import { ProtectionBlock, InfoBlock, TitleBlock, ElementsShowImage, ElementsDetails } from "@components/molecules";
 import { ElementsDataType } from "@/types";
 
-export const ArmorTemplate = ({ name, info, title, image, how_to_get, resistance, details }: ElementsDataType) => {
+export const MaskTemplate = ({ name, title, info, image, how_to_get, resistance, details }: ElementsDataType) => {
     return (
         <ElementsWrapper>
             <ElementsInnerLeft>
@@ -17,5 +17,5 @@ export const ArmorTemplate = ({ name, info, title, image, how_to_get, resistance
                 <ElementsDetails details={details} />
             </ElementsInnerRight>
         </ElementsWrapper>
-    );
+    )
 };
