@@ -3,7 +3,7 @@
     "route_name": "ballistic",
     "route:": "/pda/protects/masks/ballistic",
     "name": "Балістичний шолом",
-    "title": "Броня – Маска",
+    "title": "Захист – Маска",
     "image": "/pda/protects/masks/ballistic.png",
     "info": [
         "Цей головний убір забезпечує основний захист від пістолетних куль. Він не містить протигаз."
