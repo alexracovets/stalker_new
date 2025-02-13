@@ -30,6 +30,8 @@ export default async function Elements({ params }: PageProps) {
                                 return <ArmorTemplate {...data} />;
                             case "mask":
                                 return <MaskTemplate {...data} />;
+                            case "composite":
+                                return <ArmorTemplate {...data} />;
                             default:
                                 return null;
                         }

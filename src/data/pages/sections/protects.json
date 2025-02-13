@@ -129,6 +129,16 @@
           "name": "Тактичний шолом"
         }
       ]
+    },
+    {
+      "route": "/pda/protects/composite",
+      "name": "Комбінована броня",
+      "sub_links": [
+        {
+          "route": "/pda/protects/composite/berill_5m",
+          "name": "Бронежилет Берил-5М"
+        }
+      ]
     }
   ]
 }

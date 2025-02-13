@@ -5,7 +5,7 @@ import { JustChildren } from "@/types";
 export const ElementsInnerRight = ({ children }: JustChildren) => {
     return (
         <div
-            className="flex flex-col pr-[12.7rem]"
+            className="flex flex-col pr-[12.7rem] gap-y-[5.6rem]"
         >
             {children}
         </div>
