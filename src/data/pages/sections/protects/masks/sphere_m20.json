@@ -1,0 +1,58 @@
+{
+    "type": "mask",
+    "route_name": "sphere_m20",
+    "route:": "/pda/protects/masks/sphere_m20",
+    "name": "Шолом Сфера M20",
+    "title": "Броня – Маска",
+    "image": "/pda/protects/masks/sphere_m20.png",
+    "info": [
+        "Сучасний титановий шолом з арамідним армуванням, доповнений якісним протигазом, оснащеним фотохромними лінзами."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.7
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 0.9
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 0.9
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 1.6
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 0
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 3
+        }
+    ],
+    "details": [
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "3 кг"
+        },
+        {
+            "name": "Ціна",
+            "image": "/svg/kupon.svg",
+            "value": "25 800"
+        }
+    ]
+}

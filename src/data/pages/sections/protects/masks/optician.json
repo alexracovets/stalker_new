@@ -1,0 +1,58 @@
+{
+    "type": "mask",
+    "route_name": "optician",
+    "route:": "/pda/protects/masks/optician",
+    "name": "Протигаз оптика",
+    "title": "Броня – Маска",
+    "image": "/pda/protects/masks/optician.png",
+    "info": [
+        "Цивільний протигаз із суцільним козирком і можливістю встановлення пари фільтрів. Досить популярний в Зоні."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.8
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 0.8
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 1.1
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 1.1
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 0
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 2.1
+        }
+    ],
+    "details": [
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "2 кг"
+        },
+        {
+            "name": "Ціна",
+            "image": "/svg/kupon.svg",
+            "value": "10 185"
+        }
+    ]
+}

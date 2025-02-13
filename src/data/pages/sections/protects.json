@@ -91,6 +91,42 @@
         {
           "route": "/pda/protects/masks/pg_4",
           "name": "Протигаз ПГ-4 Facehugger"
+        },
+        {
+          "route": "/pda/protects/masks/aurora",
+          "name": "Протигаз Аврора"
+        },
+        {
+          "route": "/pda/protects/masks/optician",
+          "name": "Протигаз оптика"
+        },
+        {
+          "route": "/pda/protects/masks/aeroprotection",
+          "name": "Аерозахисний протигаз"
+        },
+        {
+          "route": "/pda/protects/masks/pa_10",
+          "name": "Протигаз ПА-10"
+        },
+        {
+          "route": "/pda/protects/masks/pa_7",
+          "name": "Протигаз ПА-7"
+        },
+        {
+          "route": "/pda/protects/masks/ballistic",
+          "name": "Балістичний шолом"
+        },
+        {
+          "route": "/pda/protects/masks/sphere_m20",
+          "name": "Шолом Сфера M20"
+        },
+        {
+          "route": "/pda/protects/masks/mask_1",
+          "name": "Маска-1 Шолом"
+        },
+        {
+          "route": "/pda/protects/masks/tactical",
+          "name": "Тактичний шолом"
         }
       ]
     }

@@ -1,0 +1,58 @@
+{
+    "type": "mask",
+    "route_name": "pa_10",
+    "route:": "/pda/protects/masks/pa_10",
+    "name": "Протигаз ПА-10",
+    "title": "Броня – Маска",
+    "image": "/pda/protects/masks/pa_10.png",
+    "info": [
+        "Нова, економічно ефективна версія військового протигаза з використанням щільніших матеріалів. Фільтр більше не можна прикріпити з протилежного боку, але розмір корпусу було зменшено, щоб компенсувати це обмеження."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.9
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 1.1
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 1
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 0
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 0
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 2.2
+        }
+    ],
+    "details": [
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "2 кг"
+        },
+        {
+            "name": "Ціна",
+            "image": "/svg/kupon.svg",
+            "value": "16 100"
+        }
+    ]
+}

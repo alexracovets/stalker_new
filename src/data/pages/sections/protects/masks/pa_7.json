@@ -1,0 +1,58 @@
+{
+    "type": "mask",
+    "route_name": "pa_7",
+    "route:": "/pda/protects/masks/pa_7",
+    "name": "Протигаз ПА-7",
+    "title": "Броня – Маска",
+    "image": "/pda/protects/masks/pa_7.png",
+    "info": [
+        "Військова адаптація цивільного протигаза, оснащеного лінзами проти відблисків і гнучким кріпленням фільтра, яке можна прикріпити з будь-якого боку, що спрощує використання зброї для лівшів."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.9
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 1.2
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 0.9
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 1.1
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 0
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 2.5
+        }
+    ],
+    "details": [
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "2 кг"
+        },
+        {
+            "name": "Ціна",
+            "image": "/svg/kupon.svg",
+            "value": "19 206"
+        }
+    ]
+}

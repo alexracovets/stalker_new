@@ -1,0 +1,58 @@
+{
+    "type": "mask",
+    "route_name": "tactical",
+    "route:": "/pda/protects/masks/tactical",
+    "name": "Тактичний шолом",
+    "title": "Броня – Маска",
+    "image": "/pda/protects/masks/tactical.png",
+    "info": [
+        "Ефективне поєднання балістичного шолома та військового протигазу широко отримало військові частини, що діють у Зоні."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.6
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 0.6
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 0.6
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 1.5
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 1.1
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 3.5
+        }
+    ],
+    "details": [
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "3 кг"
+        },
+        {
+            "name": "Ціна",
+            "image": "/svg/kupon.svg",
+            "value": "43 800"
+        }
+    ]
+}
