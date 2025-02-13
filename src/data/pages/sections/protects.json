@@ -83,6 +83,16 @@
           "name": "Захисний костюм X-7"
         }
       ]
+    },
+    {
+      "route": "/pda/protects/masks",
+      "name": "Маски",
+      "sub_links": [
+        {
+          "route": "/pda/protects/masks/pg_4",
+          "name": "Протигаз ПГ-4 Facehugger"
+        }
+      ]
     }
   ]
 }

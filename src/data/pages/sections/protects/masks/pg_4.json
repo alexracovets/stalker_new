@@ -1,0 +1,58 @@
+{
+    "type": "mask",
+    "route_name": "pg_4",
+    "route:": "/pda/protects/masks/pg_4",
+    "name": "Протигаз ПГ-4 Facehugger",
+    "title": "Броня – Маска",
+    "image": "/pda/protects/masks/pg_4.png",
+    "info": [
+        "Вінтажний протигаз цивільної оборони, спеціально модифікований, щоб витримати суворі умови Зони. Маска отримала своє прізвисько через посилену внутрішню раму, яка злегка стискає обличчя користувача."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.8
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 1
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 1.2
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 0
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 0
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 2.1
+        }
+    ],
+    "details": [
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "2 кг"
+        },
+        {
+            "name": "Ціна",
+            "image": "/svg/kupon.svg",
+            "value": "7 125"
+        }
+    ]
+}
