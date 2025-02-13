@@ -1,4 +1,5 @@
 {
+    "type": "armor",
     "route_name": "tourist_sunrise_suit",
     "route:": "/pda/protects/armors/tourist_sunrise_suit",
     "name": "Туристичний комбінезон “Зоря”",
@@ -43,9 +44,21 @@
             "value": 2.1
         }
     ],
-    "details": {
-        "weight": 3,
-        "artefacts_slots": 2,
-        "cost": 57900
-    }
+    "details": [
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "3 кг"
+        },
+        {
+            "name": "Слоти для Артефактів",
+            "image": "/svg/artifacts_slots.svg",
+            "value": "2"
+        },
+        {
+            "name": "Ціна",
+            "image": "/svg/kupon.svg",
+            "value": "57 900"
+        }
+    ]
 }

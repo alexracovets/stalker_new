@@ -18,9 +18,11 @@ const textVariants = cva(
             variant: {
                 default: "",
                 info: cn(
-                    "uppercase text-roboto_condensed text-[2.8rem] text-primary-dark_gray font-[600]"
+                    "uppercase font-roboto_condensed text-[2.8rem] text-primary-dark_gray font-[600]"
                 ),
-
+                tableValue: cn(
+                    "text-[1.6rem] text-pda-destructive"
+                )
             }
         },
         defaultVariants: {

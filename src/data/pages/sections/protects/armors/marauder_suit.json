@@ -1,4 +1,5 @@
 {
+    "type": "armor",
     "route_name": "marauder_suit",
     "route:": "/pda/protects/armors/marauder_suit",
     "name": "Костюм мародера",
@@ -42,9 +43,21 @@
             "value": 1.9
         }
     ],
-    "details": {
-        "weight": 5,
-        "artefacts_slots": 1,
-        "cost": 22800
-    }
+    "details": [
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "5 кг"
+        },
+        {
+            "name": "Слоти для Артефактів",
+            "image": "/svg/artifacts_slots.svg",
+            "value": "1"
+        },
+        {
+            "name": "Ціна",
+            "image": "/svg/kupon.svg",
+            "value": "22 800"
+        }
+    ]
 }

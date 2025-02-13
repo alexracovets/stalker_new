@@ -1,4 +1,5 @@
 {
+    "type": "armor",
     "route_name": "x7_suit",
     "route:": "/pda/protects/armors/x7_suit",
     "name": "Захисний костюм X-7",
@@ -43,9 +44,21 @@
             "value": 4
         }
     ],
-    "details": {
-        "weight": 7,
-        "artefacts_slots": 5,
-        "cost": 80000
-    }
+    "details": [
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "7 кг"
+        },
+        {
+            "name": "Слоти для Артефактів",
+            "image": "/svg/artifacts_slots.svg",
+            "value": "5"
+        },
+        {
+            "name": "Ціна",
+            "image": "/svg/kupon.svg",
+            "value": "80 000"
+        }
+    ]
 }

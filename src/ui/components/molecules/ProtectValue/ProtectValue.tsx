@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { Text } from "@components/atoms";
 
 interface ProtectValueProps {
     name: string;
@@ -21,14 +22,16 @@ export const ProtectValue = ({ name, value, image }: ProtectValueProps) => {
                 >
                     <Image src={image} alt="termal" fill className="object-cover" />
                 </div>
-                <span>
+                <Text variant="tableValue">
                     {name}
-                </span>
+                </Text>
             </td>
             <td
                 className="flex justify-center items-center w-[6.6rem] px-[2.2rem] py-[1rem] border-collapse border-x-[.1rem] border-pda-border"
             >
-                {value}
+                <Text variant="tableValue">
+                    {value}
+                </Text>
             </td>
             <td
                 className="flex-grow px-[1.3rem] py-[1.7rem] border-collapse border-x-[.1rem] border-pda-border"

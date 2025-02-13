@@ -1,4 +1,5 @@
 {
+    "type": "armor",
     "route_name": "armored_bandit_jacket",
     "route:": "/pda/protects/armors/armored_bandit_jacket",
     "name": "Броньована бандитська куртка",
@@ -42,9 +43,21 @@
             "value": 1.1
         }
     ],
-    "details": {
-        "weight": 5,
-        "artefacts_slots": 1,
-        "cost": 17200
-    }
+    "details": [
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "5 кг"
+        },
+        {
+            "name": "Слоти для Артефактів",
+            "image": "/svg/artifacts_slots.svg",
+            "value": "1"
+        },
+        {
+            "name": "Ціна",
+            "image": "/svg/kupon.svg",
+            "value": "17 200"
+        }
+    ]
 }

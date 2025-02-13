@@ -11,8 +11,8 @@ export interface ElementsDataType {
         value: number;
     }[];
     details: {
-        weight: number;
-        cost: number;
-        artefacts_slots: number;
-    }
+        name: string;
+        image: string;
+        value: string;
+    }[]
 }

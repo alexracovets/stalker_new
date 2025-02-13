@@ -1,0 +1,1 @@
+export { ArmorTemplate } from './ArmorTemplate';
