@@ -1,12 +1,13 @@
 {
     "type": "composite",
-    "route_name": "berill_5m",
-    "route:": "/pda/protects/composite/berill_5m",
-    "name": "Бронежилет Берил-5М",
+    "route_name": "exo_liberty",
+    "route:": "/pda/protects/composite/exo_liberty",
+    "name": "Екзоскелет “Волі”",
     "title": "Захист – Комбінована броня",
-    "image": "/pda/protects/composite/berill_5m.png",
+    "image": "/pda/protects/composite/exo_liberty.png",
     "info": [
-        "Цей спеціалізований броньований костюм, розроблений для армійського спецназу, є суттєвою модернізацією серії ПСЗ-5. Хоча це не найпрактичніший варіант для тривалих подорожей у Зону, його користувачі рідко опиняються в таких ситуаціях."
+        "Розроблений ексклюзивно для “Волі”, цей костюм є вершиною дизайну екзоскелетів. На жаль, чудова продуктивність має велику ціну – буквально.",
+        "*Бонусний ефект Максимальна вага +17,6 кг"
     ],
     "how_to_get": [
         "Початковий одяг."
@@ -15,49 +16,49 @@
         {
             "name": "Тепловий",
             "image": "/svg/thermal.svg",
-            "value": 1.2
+            "value": 1.8
         },
         {
             "name": "Електричний",
             "image": "/svg/electrical.svg",
-            "value": 1.5
+            "value": 1.8
         },
         {
             "name": "Хімічний",
             "image": "/svg/chemical.svg",
-            "value": 1.8
+            "value": 1.6
         },
         {
             "name": "Радіаційний",
             "image": "/svg/radiation.svg",
-            "value": 3
+            "value": 4
         },
         {
             "name": "Псі",
             "image": "/svg/psi.svg",
-            "value": 0
+            "value": 2.1
         },
         {
             "name": "Фізичний",
             "image": "/svg/physical.svg",
-            "value": 1.1
+            "value": 4.3
         }
     ],
     "details": [
         {
             "name": "Вага",
             "image": "/svg/weight.svg",
-            "value": "3 кг"
+            "value": "10.5 кг"
         },
         {
             "name": "Слоти для Артефактів",
             "image": "/svg/artifacts_slots.svg",
-            "value": "2"
+            "value": "5"
         },
         {
             "name": "Ціна",
             "image": "/svg/kupon.svg",
-            "value": "44 700"
+            "value": "102 500"
         }
     ]
 }

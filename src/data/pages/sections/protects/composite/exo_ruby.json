@@ -1,12 +1,12 @@
 {
     "type": "composite",
-    "route_name": "berill_5m",
-    "route:": "/pda/protects/composite/berill_5m",
-    "name": "Бронежилет Берил-5М",
+    "route_name": "exo_ruby",
+    "route:": "/pda/protects/composite/exo_ruby",
+    "name": "Рубіновий екзокостюм",
     "title": "Захист – Комбінована броня",
-    "image": "/pda/protects/composite/berill_5m.png",
+    "image": "/pda/protects/composite/exo_ruby.png",
     "info": [
-        "Цей спеціалізований броньований костюм, розроблений для армійського спецназу, є суттєвою модернізацією серії ПСЗ-5. Хоча це не найпрактичніший варіант для тривалих подорожей у Зону, його користувачі рідко опиняються в таких ситуаціях."
+        "Експеримент із економічно ефективним дизайном скелета, Ruby поєднує оновлені компоненти Corundum із сервоприводами першого покоління, щоб компенсувати значну вагу броньованого костюма."
     ],
     "how_to_get": [
         "Початковий одяг."
@@ -15,49 +15,49 @@
         {
             "name": "Тепловий",
             "image": "/svg/thermal.svg",
-            "value": 1.2
+            "value": 1.3
         },
         {
             "name": "Електричний",
             "image": "/svg/electrical.svg",
-            "value": 1.5
+            "value": 1.8
         },
         {
             "name": "Хімічний",
             "image": "/svg/chemical.svg",
-            "value": 1.8
+            "value": 1.3
         },
         {
             "name": "Радіаційний",
             "image": "/svg/radiation.svg",
-            "value": 3
+            "value": 4
         },
         {
             "name": "Псі",
             "image": "/svg/psi.svg",
-            "value": 0
+            "value": 1.1
         },
         {
             "name": "Фізичний",
             "image": "/svg/physical.svg",
-            "value": 1.1
+            "value": 3.7
         }
     ],
     "details": [
         {
             "name": "Вага",
             "image": "/svg/weight.svg",
-            "value": "3 кг"
+            "value": "20 кг"
         },
         {
             "name": "Слоти для Артефактів",
             "image": "/svg/artifacts_slots.svg",
-            "value": "2"
+            "value": "5"
         },
         {
             "name": "Ціна",
             "image": "/svg/kupon.svg",
-            "value": "44 700"
+            "value": "76 500"
         }
     ]
 }

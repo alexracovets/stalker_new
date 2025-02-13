@@ -1,7 +1,7 @@
-"use client"; 
+"use client";
 
 import { TitleBlock, InfoBlock, PageListBlock } from "@components/molecules";
-import { Block404 } from "@components/atoms";
+import { Block404, CustomScroll } from "@components/atoms";
 import { SectionDataType } from "@/types";
 
 interface SectionPageLayoutProps {
@@ -10,7 +10,7 @@ interface SectionPageLayoutProps {
 
 export const SectionPageLayout = ({ data }: SectionPageLayoutProps) => {
     return (
-        <>
+        <CustomScroll>
             {
                 data ? <div
                     className="w-full py-[3.2rem]"
@@ -21,6 +21,6 @@ export const SectionPageLayout = ({ data }: SectionPageLayoutProps) => {
                 </div > :
                     <Block404 />
             }
-        </>
+        </CustomScroll>
     );
 };

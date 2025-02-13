@@ -1,12 +1,13 @@
 {
     "type": "composite",
-    "route_name": "berill_5m",
-    "route:": "/pda/protects/composite/berill_5m",
-    "name": "Бронежилет Берил-5М",
+    "route_name": "exo",
+    "route:": "/pda/protects/composite/exo",
+    "name": "Екзоскелет",
     "title": "Захист – Комбінована броня",
-    "image": "/pda/protects/composite/berill_5m.png",
+    "image": "/pda/protects/composite/exo.png",
     "info": [
-        "Цей спеціалізований броньований костюм, розроблений для армійського спецназу, є суттєвою модернізацією серії ПСЗ-5. Хоча це не найпрактичніший варіант для тривалих подорожей у Зону, його користувачі рідко опиняються в таких ситуаціях."
+        "Відносно поширений екзоскелет.",
+        "Його здатність витримувати великі вантажі дозволила інтегрувати більш складний броньований костюм, здатний протистояти безлічі викликів Зони. Головний недолік полягає в високій ціні."
     ],
     "how_to_get": [
         "Початковий одяг."
@@ -20,12 +21,12 @@
         {
             "name": "Електричний",
             "image": "/svg/electrical.svg",
-            "value": 1.5
+            "value": 1.6
         },
         {
             "name": "Хімічний",
             "image": "/svg/chemical.svg",
-            "value": 1.8
+            "value": 1.6
         },
         {
             "name": "Радіаційний",
@@ -35,29 +36,29 @@
         {
             "name": "Псі",
             "image": "/svg/psi.svg",
-            "value": 0
+            "value": 2.5
         },
         {
             "name": "Фізичний",
             "image": "/svg/physical.svg",
-            "value": 1.1
+            "value": 3.2
         }
     ],
     "details": [
         {
             "name": "Вага",
             "image": "/svg/weight.svg",
-            "value": "3 кг"
+            "value": "15 кг"
         },
         {
             "name": "Слоти для Артефактів",
             "image": "/svg/artifacts_slots.svg",
-            "value": "2"
+            "value": "4"
         },
         {
             "name": "Ціна",
             "image": "/svg/kupon.svg",
-            "value": "44 700"
+            "value": "65 500"
         }
     ]
 }

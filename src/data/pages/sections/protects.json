@@ -137,6 +137,102 @@
         {
           "route": "/pda/protects/composite/berill_5m",
           "name": "Бронежилет Берил-5М"
+        },
+        {
+          "route": "/pda/protects/composite/ssp_99",
+          "name": "ССП-99 Еколог"
+        },
+        {
+          "route": "/pda/protects/composite/seva",
+          "name": "Костюм СЕВА"
+        },
+        {
+          "route": "/pda/protects/composite/seva_v",
+          "name": "Костюм СЕВА-В"
+        },
+        {
+          "route": "/pda/protects/composite/seva_d",
+          "name": "Костюм СЕВА-Д"
+        },
+        {
+          "route": "/pda/protects/composite/seva_i",
+          "name": "Костюм СЕВА-І"
+        },
+        {
+          "route": "/pda/protects/composite/wanderer_body",
+          "name": "Бронежилет Мандрівника"
+        },
+        {
+          "route": "/pda/protects/composite/psz_9n",
+          "name": "ПСЗ-9Н Вовкодав"
+        },
+        {
+          "route": "/pda/protects/composite/psz_9d",
+          "name": "ПСЗ-9Д Бронежилет “Долгу”"
+        },
+        {
+          "route": "/pda/protects/composite/psz_9i",
+          "name": "ПСЗ-9І Сокіл"
+        },
+        {
+          "route": "/pda/protects/composite/ssp_100",
+          "name": "ССП-100 Діскавері"
+        },
+        {
+          "route": "/pda/protects/composite/ssp_100i",
+          "name": "ССП-100І “Пошук”"
+        },
+        {
+          "route": "/pda/protects/composite/ssp_100m",
+          "name": "ССП-100M НДІЧАЗ"
+        },
+        {
+          "route": "/pda/protects/composite/psz_12v",
+          "name": "ПСЗ-12В Булат"
+        },
+        {
+          "route": "/pda/protects/composite/corundum",
+          "name": "Корундовий костюм"
+        },
+        {
+          "route": "/pda/protects/composite/exo",
+          "name": "Екзоскелет"
+        },
+        {
+          "route": "/pda/protects/composite/exo_brummbar",
+          "name": "Брумбарний (Мітличний) екзоскелет"
+        },
+        {
+          "route": "/pda/protects/composite/exo_bulwark",
+          "name": "Екзокостюм Оплот"
+        },
+        {
+          "route": "/pda/protects/composite/exo_duty",
+          "name": "Екзокостюм “Щит Долгу”"
+        },
+        {
+          "route": "/pda/protects/composite/exo_ruby",
+          "name": "Рубіновий екзокостюм"
+        },
+        {
+          "route": "/pda/protects/composite/exo_operator",
+          "name": "Екзоскелет Оператор"
+        },
+        {
+          "route": "/pda/protects/composite/exo_liberty",
+          "name": "Екзоскелет “Волі”"
+        },
+        {
+          "route": "/pda/protects/composite/exo_fuselage",
+          "name": "Екзоскелет Кіраса"
+        },
+        {
+          "route": "/pda/protects/composite/exo_diamond",
+          "name": "Алмазний екзоскелет"
+        },
+        {
+          "route": "/pda/protects/composite/psz_21w",
+          "name": "ПСЗ-21В Штурм"
         }
       ]
     }
