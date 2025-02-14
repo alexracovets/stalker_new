@@ -1,6 +1,6 @@
 "use client";
 
-import { DashLine } from "@components/atoms"; 
+import { DashLine, Text } from "@components/atoms";
 
 interface TitleBlockType {
     name: string;
@@ -10,13 +10,13 @@ interface TitleBlockType {
 export const TitleBlock = ({ name, title }: TitleBlockType) => {
     return (
         <div className="flex flex-col">
-            <h1 className="text-[3.4rem] text-pda-destructive font-[500] font-roboto_condensed mb-[1rem]" >
+            <Text variant="namePage" asChild="h1">
                 {name}
-            </h1>
-            <h3 className="text-[1.8rem] text-pda-orange font-roboto mb-[1.2rem]">
+            </Text>
+            <Text variant="titlePage" asChild="h3">
                 {title}
-            </h3>
-            <DashLine /> 
+            </Text>
+            <DashLine />
         </div>
     );
 };

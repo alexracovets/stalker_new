@@ -20,3 +20,4 @@ export { TitleBlock } from './TitleBlock';
 export { PageListBlock } from './PageListBlock';
 export { ElementsDetails } from './ElementsDetails';
 export { ElementsShowImage } from './ElementsShowImage';
+export { ImpactsBlock } from './ImpactsBlock';

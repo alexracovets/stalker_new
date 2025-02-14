@@ -2,6 +2,9 @@
 
 import Image from "next/image";
 
+import { Text } from "@components/atoms";
+import { cn } from "@utils";
+
 interface InfoBlockType {
     infoes: string[];
     how_to_get?: string[];
@@ -10,16 +13,14 @@ interface InfoBlockType {
 export const InfoBlock = ({ infoes, how_to_get }: InfoBlockType) => {
     return (
         <div
-            className="flex flex-col w-full mb-[9.8rem] gap-y-[1.5rem]"
+            className={cn(
+                "flex flex-col w-full mb-[9.8rem] gap-y-[1.5rem]",
+                !how_to_get && "mb-[6.4rem]"
+            )}
         >
             {infoes.map((info: string, idx: number) => {
                 return (
-                    <p
-                        key={idx}
-                        className="text-pda-white text-[2rem] leading-[2.9rem] font-roboto"
-                    >
-                        {info}
-                    </p>
+                    <Text key={idx} variant="infoPage">{info}</Text>
                 )
             })}
             {

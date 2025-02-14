@@ -235,6 +235,16 @@
           "name": "ПСЗ-21В Штурм"
         }
       ]
+    },
+    {
+      "route": "/pda/protects/kits",
+      "name": "Медицина",
+      "sub_links": [
+        {
+          "route": "/pda/protects/kits/bandage",
+          "name": "Бинт"
+        }
+      ]
     }
   ]
 }

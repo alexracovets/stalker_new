@@ -20,6 +20,18 @@ const textVariants = cva(
                 info: cn(
                     "uppercase font-roboto_condensed text-[2.8rem] text-primary-dark_gray font-[600]"
                 ),
+                namePage: cn(
+                    "text-[3.4rem] text-pda-destructive font-[500] font-roboto_condensed mb-[1rem]"
+                ),
+                infoPageTitle: cn(
+                    "text-pda-white text-[2rem] leading-[2.9rem] font-roboto font-[600]"
+                ),
+                infoPage: cn(
+                    "text-pda-white text-[2rem] leading-[2.9rem] font-roboto"
+                ),
+                titlePage: cn(
+                    "text-[1.8rem] text-pda-orange font-roboto mb-[1.2rem]"
+                ),
                 tableValue: cn(
                     "text-[1.6rem] text-pda-destructive"
                 )

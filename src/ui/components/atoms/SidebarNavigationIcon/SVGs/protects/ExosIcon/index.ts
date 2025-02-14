@@ -1,1 +1,0 @@
-export { ExosIcon } from "./ExosIcon";

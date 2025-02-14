@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 import {
-    ArmorIco, MaskIco, ExosIcon, KitsIco,
+    ArmorIco, MaskIco, СompositeIcon, KitsIco,
     PistolIco, AutomaticsIco, ShotgunsIco, ExplosivesIco, SnipersIco, ModsIco, AmmoIco,
     LocationsIco, AnomaliesIco, ArtefactsIco, DetectorsIco
 } from "./SVGs";
@@ -33,9 +33,9 @@ export const SidebarNavigationIcon = ({ name, active }: IconCategoryType) => {
                         color={active || hover ? activeColor : defaultColor}
                     />
                 );
-            case "exos":
+            case "composite":
                 return (
-                    <ExosIcon
+                    <СompositeIcon
                         color={active || hover ? activeColor : defaultColor}
                     />
                 );

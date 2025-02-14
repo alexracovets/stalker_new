@@ -15,11 +15,11 @@ interface PageListBlockType {
 
 export const PageListBlock = ({ links }: PageListBlockType) => {
     return (
-        <ol className="flex flex-col gap-y-[2rem] w-fit">
+        <ol className="flex flex-wrap gap-y-[5rem] w-full">
             {
                 links.map((link, idx) => {
                     return (
-                        <li key={idx} className="flex flex-col gap-y-[1.5rem]">
+                        <li key={idx} className="flex flex-col gap-y-[1.5rem] w-[50%]">
                             <Link
                                 href={link.route}
                                 className="relative text-[2.5rem] hover:underline"
