@@ -3,7 +3,7 @@
 import { ProtectValue } from "../ProtectValue";
 
 interface ProtectionBlockProps {
-    resistance: {
+    resistance?: {
         name: string;
         value: number;
         image: string;
@@ -18,7 +18,7 @@ export const ProtectionBlock = ({ resistance }: ProtectionBlockProps) => {
         >
             <tbody>
                 {
-                    resistance.map((resistance, idx) => {
+                    resistance && resistance.map((resistance, idx) => {
                         return (
                             <ProtectValue key={idx} name={resistance.name} value={resistance.value} image={resistance.image} />
                         )

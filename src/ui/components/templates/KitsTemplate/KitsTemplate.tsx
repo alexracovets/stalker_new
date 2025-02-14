@@ -1,7 +1,7 @@
 "use client";
 
 import { InfoBlock, TitleBlock, ElementsShowImage, ElementsDetails, ImpactsBlock } from "@components/molecules";
-import { ElementsInnerLeft, ElementsInnerRight, ElementsWrapper, CustomScroll, Text } from "@components/atoms";
+import { ElementsInnerLeft, ElementsInnerRight, ElementsWrapper, CustomScroll } from "@components/atoms";
 import { ElementsDataType } from "@/types";
 
 export const KitsTemplate = ({ name, title, info, image, impacts, details }: ElementsDataType) => {
