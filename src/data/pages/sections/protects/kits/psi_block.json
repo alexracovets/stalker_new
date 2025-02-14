@@ -1,0 +1,40 @@
+{
+    "type": "kit",
+    "route_name": "psi_block",
+    "route:": "/pda/protects/kits/psi_block",
+    "name": "Псі-блокада",
+    "title": "Захист – Медицина",
+    "image": "/pda/protects/kits/psi_block.png",
+    "info": [
+        "Препарат, призначений для часткової компенсації негативного впливу пси-випромінювання на людину. Один з небагатьох доступних способів запобігти підсмажуванню внутрішньої частини голови."
+    ],
+    "impacts": [
+        {
+            "title": "Психічний захист",
+            "info": "Зменшує шкоду від психічних атак"
+        }
+    ],
+    "details": [
+        {
+            "name": "Психічний захист",
+            "image": "/svg/psi.svg",
+            "value": "+10",
+            "valueColor": "green"
+        },
+        {
+            "name": "Час дії",
+            "image": "/svg/time.svg",
+            "value": "60 сек"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "0.1 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "940"
+        }
+    ]
+}

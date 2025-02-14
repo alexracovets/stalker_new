@@ -243,6 +243,34 @@
         {
           "route": "/pda/protects/kits/bandage",
           "name": "Бинт"
+        },
+        {
+          "route": "/pda/protects/kits/medkit",
+          "name": "Аптечка"
+        },
+        {
+          "route": "/pda/protects/kits/army_medkit",
+          "name": "Армійська аптечка"
+        },
+        {
+          "route": "/pda/protects/kits/scientific_medkit",
+          "name": "Наукова аптечка"
+        },
+        {
+          "route": "/pda/protects/kits/anti_rad",
+          "name": "Протирадіаційні препарати"
+        },
+        {
+          "route": "/pda/protects/kits/psi_block",
+          "name": "Псі-блокада"
+        },
+        {
+          "route": "/pda/protects/kits/hercules",
+          "name": "Геркулес"
+        },
+        {
+          "route": "/pda/protects/kits/vinca",
+          "name": "Барвінок"
         }
       ]
     }

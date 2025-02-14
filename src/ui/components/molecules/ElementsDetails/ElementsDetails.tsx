@@ -29,7 +29,7 @@ export const ElementsDetails = ({ details, variant }: ElementsDetailsType) => {
                                     "w-[23rem] bg-pda-gray flex justify-start items-center gap-x-[.8rem] px-[.4rem] py-[.6rem] border-collapse border-x-[.1rem] border-pda-border",
                                     variant === "secondary" && "w-[21.5rem]"
                                 )}>
-                                    <AtomImage src={detail.image} alt={detail.name} wrapper="w-[3.2rem] h-[3.2rem]" />
+                                    <AtomImage src={detail.image} alt={detail.name} wrapper="w-[3.2rem] h-[3.2rem] min-w-[3.2rem]" />
                                     <Text variant="tableValue">
                                         {detail.name}
                                     </Text>

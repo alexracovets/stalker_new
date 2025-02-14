@@ -33,7 +33,7 @@ const textVariants = cva(
                     "text-[1.8rem] text-pda-orange font-roboto mb-[1.2rem]"
                 ),
                 tableValue: cn(
-                    "text-[1.6rem] text-pda-destructive"
+                    "text-[1.6rem] text-pda-destructive leading-[2.4rem] font-roboto"
                 )
             }
         },

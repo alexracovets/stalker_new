@@ -1,0 +1,55 @@
+{
+    "type": "kit",
+    "route_name": "scientific_medkit",
+    "route:": "/pda/protects/kits/scientific_medkit",
+    "name": "Наукова аптечка",
+    "title": "Захист – Медицина",
+    "image": "/pda/protects/kits/scientific_medkit.png",
+    "info": [
+        "Експериментальні препарати, що входять до цих наборів, можуть творити дива, але майте на увазі, що багато з них ще не пройшли клінічних випробувань. Використовуйте їх на свій страх і ризик."
+    ],
+    "impacts": [
+        {
+            "title": "Відновлення здоров’я",
+            "info": "Відновлює рівень здоров’я"
+        },
+        {
+            "title": "Зменшення кровотечі",
+            "info": "Зменшує силу негативного ефекту Кровотеча та шкоди, яку він завдає за секунду"
+        },
+        {
+            "title": "Зменшення радіації",
+            "info": "Очищає частину дозиметра випромінювання"
+        }
+    ],
+    "details": [
+        {
+            "name": "Відновлення здоров'я",
+            "image": "/svg/health.svg",
+            "value": "Максимальний",
+            "valueColor": "green"
+        },
+        {
+            "name": "Зменшення кровотечі",
+            "image": "/svg/bleeding.svg",
+            "value": "Середній",
+            "valueColor": "green"
+        },
+        {
+            "name": "Зменшення радіації",
+            "image": "/svg/radiation.svg",
+            "value": "Сильний",
+            "valueColor": "green"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "0.2 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "910"
+        }
+    ]
+}

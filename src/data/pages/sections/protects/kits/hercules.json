@@ -1,0 +1,40 @@
+{
+    "type": "kit",
+    "route_name": "hercules",
+    "route:": "/pda/protects/kits/hercules",
+    "name": "Геркулес",
+    "title": "Захист – Медицина",
+    "image": "/pda/protects/kits/hercules.png",
+    "info": [
+        "Друге покоління препарату, що підвищує силові показники. Ефективно підвищує поріг втоми м'язів, покращуючи їх здатність витримувати тривалі навантаження."
+    ],
+    "impacts": [
+        {
+            "title": "Максимальна вага",
+            "info": "Збільшує вашу вантажопідйомність"
+        }
+    ],
+    "details": [
+        {
+            "name": "Максимальна вага",
+            "image": "/svg/weight.svg",
+            "value": "+20",
+            "valueColor": "green"
+        },
+        {
+            "name": "Час дії",
+            "image": "/svg/time.svg",
+            "value": "300 сек"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "0.1 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "1 560"
+        }
+    ]
+}

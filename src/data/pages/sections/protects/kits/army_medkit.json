@@ -1,12 +1,12 @@
 {
     "type": "kit",
-    "route_name": "bandage",
-    "route:": "/pda/protects/kits/bandage",
-    "name": "Бинт",
+    "route_name": "army_medkit",
+    "route:": "/pda/protects/kits/army_medkit",
+    "name": "Армійська аптечка",
     "title": "Захист – Медицина",
-    "image": "/pda/protects/kits/bandage.png",
+    "image": "/pda/protects/kits/army_medkit.png",
     "info": [
-        "Пов'язка для зупинки кровотечі, можливо, навіть стерильна. Зручний для перев'язки ран, зупинки артеріальної кровотечі та профілактики інфекції."
+        "В аптечці є все необхідне для надання допомоги при осколкових, кульових та інших пораненнях, отриманих на полі бою. На щастя, завдяки присутності IPSF у Зоні, будь-хто може отримати ці аптечки."
     ],
     "impacts": [
         {
@@ -22,24 +22,24 @@
         {
             "name": "Відновлення здоров'я",
             "image": "/svg/health.svg",
-            "value": "Слабкий",
+            "value": "Максимальний",
             "valueColor": "green"
         },
         {
             "name": "Зменшення кровотечі",
             "image": "/svg/bleeding.svg",
-            "value": "Максимально",
+            "value": "Сильний",
             "valueColor": "green"
         },
         {
             "name": "Вага",
             "image": "/svg/weight.svg",
-            "value": "0.05 кг"
+            "value": "0.2 кг"
         },
         {
             "name": "Купони",
             "image": "/svg/kupon.svg",
-            "value": "150"
+            "value": "545"
         }
     ]
 }
