@@ -1,0 +1,42 @@
+{
+    "type": "kit",
+    "route_name": "non_stop_limited",
+    "route:": "/pda/protects/kits/non_stop_limited",
+    "name": "Енергетик Non Stop лімітована серія",
+    "title": "Захист – Напої",
+    "image": "/pda/protects/kits/non_stop_limited.png",
+    "info": [
+        "Лімітована серія енергетичного напою з кофеїном, вітамінами та освіжаючим кавуновим смаком."
+    ],
+    "impacts": [],
+    "details": [
+        {
+            "name": "Відновлення витривалості",
+            "image": "/svg/stamina.svg",
+            "value": "Максимальний",
+            "valueColor": "green"
+        },
+        {
+            "name": "Посилення голоду",
+            "image": "/svg/hunger.svg",
+            "value": "Середній",
+            "valueColor": "green"
+        },
+        {
+            "name": "Вартість витривалості",
+            "image": "/svg/stamina.svg",
+            "value": "Слабкий",
+            "valueColor": "green"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "1 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "300"
+        }
+    ]
+}

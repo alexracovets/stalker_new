@@ -1,0 +1,42 @@
+{
+    "type": "kit",
+    "route_name": "gorilka_magic",
+    "route:": "/pda/protects/kits/gorilka_magic",
+    "name": "«Чарівна» Горілка",
+    "title": "Захист – Напої",
+    "image": "/pda/protects/kits/gorilka_magic.png",
+    "info": [
+        "Горілка  вироблена в аномальній Зоні, дистильована кваліфікованим хіміком. Пахне міцним самогоном.",
+        "Є предметом по завжанню."
+    ],
+    "impacts": [],
+    "details": [
+        {
+            "name": "Психічний захист",
+            "image": "/svg/psi.svg",
+            "value": "+2",
+            "valueColor": "green"
+        },
+        {
+            "name": "Посилення голоду",
+            "image": "/svg/hunger.svg",
+            "value": "Слабкий",
+            "valueColor": "red"
+        },
+        {
+            "name": "Час дії",
+            "image": "/svg/time.svg",
+            "value": "90 сек"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "0.35 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "500"
+        }
+    ]
+}

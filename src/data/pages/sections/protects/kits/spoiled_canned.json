@@ -1,0 +1,27 @@
+{
+    "type": "kit",
+    "route_name": "spoiled_canned",
+    "route:": "/pda/protects/kits/spoiled_canned",
+    "name": "Зіпсовані консерви",
+    "title": "Захист – Їжа",
+    "image": "/pda/protects/kits/spoiled_canned.png",
+    "info": [
+        "Роздута консервна банка, термін придатності якої закінчився задовго до появи Зони. Без нормального протигаза сморід нестерпний."
+    ],
+    "impacts": [
+     
+    ],
+    "details": [
+        {
+            "name": "Шкода",
+            "image": "/svg/damage.svg",
+            "value": "Слабка",
+            "valueColor": "red"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "40"
+        }
+    ]
+}

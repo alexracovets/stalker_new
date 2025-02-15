@@ -1,0 +1,41 @@
+{
+    "type": "kit",
+    "route_name": "canned_food",
+    "route:": "/pda/protects/kits/canned_food",
+    "name": "Консерви",
+    "title": "Захист – Їжа",
+    "image": "/pda/protects/kits/canned_food.png",
+    "info": [
+        "Вміст цих бляшанок - таємниця, в яку ніхто не наважується заглиблюватися заради власного здорового глузду. Підігріті на вогнищі, вони перетворюються на смачну, поживну їжу."
+    ],
+    "impacts": [
+        {
+            "title": "Відновлення здоров’я",
+            "info": "Відновлює рівень здоров’я"
+        }
+    ],
+    "details": [
+        {
+            "name": "Відновлення здоров'я",
+            "image": "/svg/health.svg",
+            "value": "Середній",
+            "valueColor": "green"
+        },
+        {
+            "name": "Зменшення голоду",
+            "image": "/svg/hunger.svg",
+            "value": "Сильний",
+            "valueColor": "green"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "1 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "125"
+        }
+    ]
+}

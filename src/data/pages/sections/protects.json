@@ -271,6 +271,54 @@
         {
           "route": "/pda/protects/kits/vinca",
           "name": "Барвінок"
+        },
+        {
+          "route": "/pda/protects/kits/fresh_bread",
+          "name": "Свіжий хліб"
+        },
+        {
+          "route": "/pda/protects/kits/bread",
+          "name": "Хліб"
+        },
+        {
+          "route": "/pda/protects/kits/sausage",
+          "name": "Ковбаса"
+        },
+        {
+          "route": "/pda/protects/kits/canned_food",
+          "name": "Консерви"
+        },
+        {
+          "route": "/pda/protects/kits/condensed_milk",
+          "name": "Згущене молоко"
+        },
+        {
+          "route": "/pda/protects/kits/spoiled_canned",
+          "name": "Зіпсовані консерви"
+        },
+        {
+          "route": "/pda/protects/kits/water",
+          "name": "Вода"
+        },
+        {
+          "route": "/pda/protects/kits/non_stop",
+          "name": "Енергетик Non Stop"
+        },
+        {
+          "route": "/pda/protects/kits/non_stop_limited",
+          "name": "Енергетик Non Stop лімітована серія"
+        },
+        {
+          "route": "/pda/protects/kits/beer",
+          "name": "Пиво"
+        },
+        {
+          "route": "/pda/protects/kits/gorilka_cossacks",
+          "name": "Горілка «Козаки»"
+        },
+        {
+          "route": "/pda/protects/kits/gorilka_magic",
+          "name": "«Чарівна» Горілка"
         }
       ]
     }

@@ -1,0 +1,32 @@
+{
+    "type": "kit",
+    "route_name": "condensed_milk",
+    "route:": "/pda/protects/kits/condensed_milk",
+    "name": "Згущене молоко",
+    "title": "Захист – Їжа",
+    "image": "/pda/protects/kits/condensed_milk.png",
+    "info": [
+        "Вважається делікатесом Зони, його часто беруть з собою в тривалі експедиції та іноді використовують як приманку для мутантів, які також мають схильність до солодкого."
+    ],
+    "impacts": [
+      
+    ],
+    "details": [ 
+        {
+            "name": "Зменшення голоду",
+            "image": "/svg/health.svg",
+            "value": "Максимальний",
+            "valueColor": "green"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "1 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "250"
+        }
+    ]
+}

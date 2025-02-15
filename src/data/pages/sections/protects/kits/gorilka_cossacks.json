@@ -1,0 +1,36 @@
+{
+    "type": "kit",
+    "route_name": "gorilka_cossacks",
+    "route:": "/pda/protects/kits/gorilka_cossacks",
+    "name": "Горілка «Козаки»",
+    "title": "Захист – Напої",
+    "image": "/pda/protects/kits/gorilka_cossacks.png",
+    "info": [
+        "Обов'язковий алкогольний напій виробництва GSC, відомий своєю здатністю виводити радіацію з організму. Це також чудовий засіб проти нудного повсякденного життя в Зоні."
+    ],
+    "impacts": [],
+    "details": [
+        {
+            "name": "Зменшення радіації",
+            "image": "/svg/radiation.svg",
+            "value": "Сильний",
+            "valueColor": "green"
+        },
+        {
+            "name": "Посилення голоду",
+            "image": "/svg/hunger.svg",
+            "value": "Слабкий",
+            "valueColor": "red"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "1 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "145"
+        }
+    ]
+}

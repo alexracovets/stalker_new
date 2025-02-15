@@ -1,0 +1,42 @@
+{
+    "type": "kit",
+    "route_name": "non_stop",
+    "route:": "/pda/protects/kits/non_stop",
+    "name": "Енергетик Non Stop",
+    "title": "Захист – Напої",
+    "image": "/pda/protects/kits/non_stop.png",
+    "info": [
+        "Завдяки покращеній формулі з кофеїном, таурином та вітамінами С, В5, В6, В9 і РР, цей енергетичний напій просто необхідний для тривалих вилазок у Зону."
+    ],
+    "impacts": [],
+    "details": [
+        {
+            "name": "Відновлення витривалості",
+            "image": "/svg/stamina.svg",
+            "value": "Сильний",
+            "valueColor": "green"
+        },
+        {
+            "name": "Посилення голоду",
+            "image": "/svg/hunger.svg",
+            "value": "Слабкий",
+            "valueColor": "red"
+        },
+        {
+            "name": "Вартість витривалості",
+            "image": "/svg/stamina.svg",
+            "value": "Слабкий",
+            "valueColor": "green"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "1 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "190"
+        }
+    ]
+}

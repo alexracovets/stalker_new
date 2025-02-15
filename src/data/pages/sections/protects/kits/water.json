@@ -1,0 +1,43 @@
+{
+    "type": "kit",
+    "route_name": "water",
+    "route:": "/pda/protects/kits/water",
+    "name": "Вода",
+    "title": "Захист – Напої",
+    "image": "/pda/protects/kits/water.png",
+    "info": [
+        "Знайти чисту воду в Зоні відчуження - непросте завдання, адже всі природні джерела там забруднені радіацією.",
+        "На щастя, на материковій частині це поки що не є проблемою."
+    ],
+    "impacts": [],
+    "details": [
+        {
+            "name": "Відновлення витривалості",
+            "image": "/svg/stamina.svg",
+            "value": "Середній",
+            "valueColor": "green"
+        },
+        {
+            "name": "Зменшення голоду",
+            "image": "/svg/hunger.svg",
+            "value": "Слабкий",
+            "valueColor": "green"
+        },
+        {
+            "name": "Вартість витривалості",
+            "image": "/svg/stamina.svg",
+            "value": "Слабкий",
+            "valueColor": "green"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "1 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "65"
+        }
+    ]
+}
