@@ -6,41 +6,36 @@
     "title": "Зброя – Пістолети",
     "image": "/pda/weapons/pistols/pm.png",
     "info": [
-        "Недорога темна куртка, яку всюди носять бандити. Насправді це не захистить вас, але змусить вас виглядати дурно."
+        "Службовий пістолет, модернізований. Розроблений у 60-х роках для оснащення офіцерів поліції та армії в країнах Східного блоку. Популярний в Зоні завдяки своїй надійності."
     ],
     "how_to_get": [
         "Початковий одяг."
     ],
     "resistance": [
         {
-            "name": "Тепловий",
-            "image": "/svg/thermal.svg",
-            "value": 0.3
+            "name": "Шкода",
+            "image": "/svg/damage.svg",
+            "value": 1.6
         },
         {
-            "name": "Електричний",
-            "image": "/svg/electrical.svg",
-            "value": 0.3
+            "name": "Пробиття",
+            "image": "/svg/penetration.svg",
+            "value": 1.1
         },
         {
-            "name": "Хімічний",
-            "image": "/svg/chemical.svg",
-            "value": 0.3
+            "name": "Темп стрільби",
+            "image": "/svg/rate.svg",
+            "value": 4.92
         },
         {
-            "name": "Радіаційний",
-            "image": "/svg/radiation.svg",
-            "value": 0
+            "name": "Дальність",
+            "image": "/svg/range.svg",
+            "value": 0.6
         },
         {
             "name": "Псі",
-            "image": "/svg/psi.svg",
-            "value": 0
-        },
-        {
-            "name": "Фізичний",
-            "image": "/svg/physical.svg",
-            "value": 1.1
+            "image": "/svg/accuracy.svg",
+            "value": 3.2
         }
     ],
     "details": [

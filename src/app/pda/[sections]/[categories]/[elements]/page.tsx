@@ -1,5 +1,5 @@
 
-import { ArmorTemplate, MaskTemplate, KitsTemplate } from "@components/templates";
+import { ArmorTemplate, MaskTemplate, KitsTemplate, PistolsLayout } from "@components/templates";
 import { Block404 } from "@components/atoms";
 
 interface PageProps {
@@ -35,7 +35,7 @@ export default async function Elements({ params }: PageProps) {
                             case "kit":
                                 return <KitsTemplate {...data} />;
                             case "pistols":
-                                return <KitsTemplate {...data} />;
+                                return <PistolsLayout {...data} />;
                             default:
                                 return null;
                         }
