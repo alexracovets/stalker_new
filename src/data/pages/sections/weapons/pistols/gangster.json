@@ -1,0 +1,95 @@
+{
+    "type": "pistols",
+    "route_name": "gangster",
+    "route:": "/pda/weapons/pistols/gangster",
+    "name": "Гангстер (Gangster)",
+    "title": "Зброя – Пістолети-кулемети",
+    "image": "/pda/weapons/pistols/gangster.png",
+    "info": [
+        "М10, модифікований під враженням від гангстерських фільмів 80-х і 90-х. Вражає, але ефективність в умовах Зони сумнівна."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Шкода",
+            "image": "/svg/damage.svg",
+            "value": 0.5
+        },
+        {
+            "name": "Пробиття",
+            "image": "/svg/penetration.svg",
+            "value": 2.1
+        },
+        {
+            "name": "Темп стрільби",
+            "image": "/svg/rate.svg",
+            "value": 5
+        },
+        {
+            "name": "Дальність",
+            "image": "/svg/range.svg",
+            "value": 0.7
+        },
+        {
+            "name": "Точність",
+            "image": "/svg/accuracy.svg",
+            "value": 2.1
+        }
+    ],
+    "attachments": {
+        "name": "Tактичний обвіс:",
+        "links": [
+            {
+                "name": "Коліматорний приціл (приціли)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "Тактичний глушник для пістолета (глушники)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "Магазин великої місткості М10 (магазини)",
+                "url": "/pda/attachments"
+            }
+        ]
+    },
+    "details": [
+        {
+            "name": "Тип",
+            "image": "/svg/submachine.svg",
+            "value": "Пістолети-кулемети"
+        },
+        {
+            "name": "Калібр",
+            "image": "/svg/ammo.svg",
+            "value": ".45"
+        },
+        {
+            "name": "Режими вогню",
+            "image": "/svg/rate.svg",
+            "value": "Автоматичний"
+        },
+        {
+            "name": "Магазин, набої",
+            "image": "/svg/magazine.svg",
+            "value": "40"
+        },
+        {
+            "name": "Унікальна",
+            "image": "/svg/rare.svg",
+            "value": "Так"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "2.05 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "12 100"
+        }
+    ]
+}

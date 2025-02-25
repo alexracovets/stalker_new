@@ -15,7 +15,7 @@ export const ProtectValue = ({ name, value, image }: ProtectValueProps) => {
             className="flex w-full border-collapse border-y-[.1rem] border-pda-border"
         >
             <td
-                className="flex items-center w-[15rem] h-full px-[.4rem] py-[.6rem] gap-x-[.8rem] bg-pda-gray border-collapse border-x-[.1rem] border-pda-border"
+                className="flex items-center w-[17rem] h-full px-[.4rem] py-[.6rem] gap-x-[.8rem] bg-pda-gray border-collapse border-x-[.1rem] border-pda-border"
             >
                 <div
                     className="relative w-[3.2rem] h-[3.2rem]"

@@ -1,0 +1,95 @@
+{
+    "type": "pistols",
+    "route_name": "shahs_mate",
+    "route:": "/pda/weapons/pistols/shahs_mate",
+    "name": "Шах і Мат (Shah's Mate)",
+    "title": "Зброя – Пістолети-кулемети",
+    "image": "/pda/weapons/pistols/shahs_mate.png",
+    "info": [
+        "Особиста пушка Шаха, пахана «Кодла». Спецзамовлення з Великої землі зі збільшеним магазином. Такого ствола немає більше ні в кого на Смітнику!"
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Шкода",
+            "image": "/svg/damage.svg",
+            "value": 1.3
+        },
+        {
+            "name": "Пробиття",
+            "image": "/svg/penetration.svg",
+            "value": 1.1
+        },
+        {
+            "name": "Темп стрільби",
+            "image": "/svg/rate.svg",
+            "value": 4.93
+        },
+        {
+            "name": "Дальність",
+            "image": "/svg/range.svg",
+            "value": 1.25
+        },
+        {
+            "name": "Точність",
+            "image": "/svg/accuracy.svg",
+            "value": 3
+        }
+    ],
+    "attachments": {
+        "name": "Tактичний обвіс:",
+        "links": [
+            {
+                "name": "Голографічний приціл (приціли)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "Глушник пістолета (глушники)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "Магазин великої місткості Гадюка-5 (магазини)",
+                "url": "/pda/attachments"
+            }
+        ]
+    },
+    "details": [
+        {
+            "name": "Тип",
+            "image": "/svg/submachine.svg",
+            "value": "Пістолети-кулемети"
+        },
+        {
+            "name": "Калібр",
+            "image": "/svg/ammo.svg",
+            "value": "9х19"
+        },
+        {
+            "name": "Режими вогню",
+            "image": "/svg/rate.svg",
+            "value": "Одиночний, потрійний, автоматичний"
+        },
+        {
+            "name": "Магазин, набої",
+            "image": "/svg/magazine.svg",
+            "value": "40"
+        },
+        {
+            "name": "Унікальна",
+            "image": "/svg/rare.svg",
+            "value": "Так"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "2.65 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "9 400"
+        }
+    ]
+}

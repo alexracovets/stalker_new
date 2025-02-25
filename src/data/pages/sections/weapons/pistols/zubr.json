@@ -1,0 +1,99 @@
+{
+    "type": "pistols",
+    "route_name": "zubr",
+    "route:": "/pda/weapons/pistols/zubr",
+    "name": "Зубр-19 (Zubr-19)",
+    "title": "Зброя – Пістолети-кулемети",
+    "image": "/pda/weapons/pistols/zubr.png",
+    "info": [
+        "Створений на базі АКМ-74У, цей пістолет-кулемет має ідеальний баланс між ціною, вагою, точністю та скорострільністю."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Шкода",
+            "image": "/svg/damage.svg",
+            "value": 1.1
+        },
+        {
+            "name": "Пробиття",
+            "image": "/svg/penetration.svg",
+            "value": 2.8
+        },
+        {
+            "name": "Темп стрільби",
+            "image": "/svg/rate.svg",
+            "value": 4.91
+        },
+        {
+            "name": "Дальність",
+            "image": "/svg/range.svg",
+            "value": 1.6
+        },
+        {
+            "name": "Точність",
+            "image": "/svg/accuracy.svg",
+            "value": 3.65
+        }
+    ],
+    "attachments": {
+        "name": "Tактичний обвіс:",
+        "links": [
+            {
+                "name": "Відкритий коліматорний приціл (приціли)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "PAO 2X оптика (приціли)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "Глушник пістолета (глушники)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "Магазин великої місткості Зубр-19 (магазини)",
+                "url": "/pda/attachments"
+            }
+        ]
+    },
+    "details": [
+        {
+            "name": "Тип",
+            "image": "/svg/submachine.svg",
+            "value": "Пістолети-кулемети"
+        },
+        {
+            "name": "Калібр",
+            "image": "/svg/ammo.svg",
+            "value": "9х19"
+        },
+        {
+            "name": "Режими вогню",
+            "image": "/svg/rate.svg",
+            "value": "Одиночний, автоматичний"
+        },
+        {
+            "name": "Магазин, набої",
+            "image": "/svg/magazine.svg",
+            "value": "50"
+        },
+        {
+            "name": "Унікальна",
+            "image": "/svg/rare.svg",
+            "value": "Ні"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "2.1 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "20 000"
+        }
+    ]
+}

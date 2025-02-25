@@ -1,0 +1,99 @@
+{
+    "type": "pistols",
+    "route_name": "riemann",
+    "route:": "/pda/weapons/pistols/riemann",
+    "name": "Ріман (Riemann) DLC",
+    "title": "Зброя – Пістолети-кулемети",
+    "image": "/pda/weapons/pistols/riemann.png",
+    "info": [
+        "Інтеграл-А після серйозного тюнінгу. Основна відмінність від базової версії - спеціалізований ствол з інтегрованим звукознімачем і подовжена рукоятка."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Шкода",
+            "image": "/svg/damage.svg",
+            "value": 0.6
+        },
+        {
+            "name": "Пробиття",
+            "image": "/svg/penetration.svg",
+            "value": 2.9
+        },
+        {
+            "name": "Темп стрільби",
+            "image": "/svg/rate.svg",
+            "value": 4.99
+        },
+        {
+            "name": "Дальність",
+            "image": "/svg/range.svg",
+            "value": 2.1
+        },
+        {
+            "name": "Точність",
+            "image": "/svg/accuracy.svg",
+            "value": 5
+        }
+    ],
+    "attachments": {
+        "name": "Tактичний обвіс:",
+        "links": [
+            {
+                "name": "Коліматорний приціл (приціли)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "RNBW 2X оптика  (приціли)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "Тактичний глушник для пістолета (глушники)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "Магазин великої місткості Інтеграл-А (магазини)",
+                "url": "/pda/attachments"
+            }
+        ]
+    },
+    "details": [
+        {
+            "name": "Тип",
+            "image": "/svg/submachine.svg",
+            "value": "Пістолети-кулемети"
+        },
+        {
+            "name": "Калібр",
+            "image": "/svg/ammo.svg",
+            "value": "9x19"
+        },
+        {
+            "name": "Режими вогню",
+            "image": "/svg/rate.svg",
+            "value": "Одиночний, потрійний,автоматичний"
+        },
+        {
+            "name": "Магазин, набої",
+            "image": "/svg/magazine.svg",
+            "value": "20"
+        },
+        {
+            "name": "Унікальна",
+            "image": "/svg/rare.svg",
+            "value": "Так"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "4.8 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "31 900"
+        }
+    ]
+}

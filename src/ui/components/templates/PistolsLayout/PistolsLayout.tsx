@@ -18,7 +18,7 @@ export const PistolsLayout = ({ name, title, info, resistance, how_to_get, image
                 <ElementsInnerRight variant="pistols">
                     <HowToGet how_to_get={how_to_get} />
                     <AttachmentsBlock {...attachments} />
-                    <ElementsDetails details={details} variant="secondary" />
+                    <ElementsDetails details={details} variant="weapons" />
                 </ElementsInnerRight>
             </ElementsWrapper>
         </CustomScroll>

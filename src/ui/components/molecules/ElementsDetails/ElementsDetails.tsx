@@ -10,7 +10,7 @@ interface ElementsDetailsType {
         image: string;
         valueColor?: string;
     }[];
-    variant?: "secondary";
+    variant?: "secondary" | "weapons";
 };
 
 export const ElementsDetails = ({ details, variant }: ElementsDetailsType) => {
@@ -27,7 +27,8 @@ export const ElementsDetails = ({ details, variant }: ElementsDetailsType) => {
                             >
                                 <td className={cn(
                                     "w-[23rem] bg-pda-gray flex justify-start items-center gap-x-[.8rem] px-[.4rem] py-[.6rem] border-collapse border-x-[.1rem] border-pda-border",
-                                    variant === "secondary" && "w-[21.5rem]"
+                                    variant === "secondary" && "w-[21.5rem]",
+                                    variant === "weapons" && "w-[17.4rem]"
                                 )}>
                                     <AtomImage src={detail.image} alt={detail.name} wrapper="w-[3.2rem] h-[3.2rem] min-w-[3.2rem]" />
                                     <Text variant="tableValue">
@@ -36,11 +37,13 @@ export const ElementsDetails = ({ details, variant }: ElementsDetailsType) => {
                                 </td>
                                 <td className={cn(
                                     "w-[15.8rem] flex justify-center items-center",
-                                    variant === "secondary" && "w-[17.4rem]"
+                                    variant === "secondary" && "w-[17.4rem]",
+                                    variant === "weapons" && "w-[22.5rem]"
                                 )}>
                                     <Text
                                         variant="tableValue"
                                         className={cn(
+                                            "text-center py-[.6rem]",
                                             detail.valueColor === "green" && "text-pda-green",
                                             detail.valueColor === "red" && "text-pda-red",
                                         )}

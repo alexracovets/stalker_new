@@ -69,6 +69,34 @@
         {
           "route": "/pda/weapons/pistols/integral",
           "name": "Інтеграл-А (Integral-A)"
+        },
+        {
+          "route": "/pda/weapons/pistols/zubr",
+          "name": "Зубр-19 (Zubr-19)"
+        },
+        {
+          "route": "/pda/weapons/pistols/shahs_mate",
+          "name": "Шах і Мат (Shah's Mate)"
+        },
+        {
+          "route": "/pda/weapons/pistols/viper_monolith",
+          "name": "Гадюка Моноліт (Viper Monolith) DLC"
+        },
+        {
+          "route": "/pda/weapons/pistols/gangster",
+          "name": "Гангстер (Gangster)"
+        },
+        {
+          "route": "/pda/weapons/pistols/spitter",
+          "name": "Плювачка (Spitter)"
+        },
+        {
+          "route": "/pda/weapons/pistols/riemann",
+          "name": "Ріман (Riemann) DLC"
+        },
+        {
+          "route": "/pda/weapons/pistols/rat_killer",
+          "name": "Щуробій (Rat Killer)"
         }
       ]
     }
