@@ -1,0 +1,95 @@
+{
+  "type": "pistols",
+  "route_name": "encourage",
+  "route:": "/pda/weapons/pistols/encourage",
+  "name": "Наставник (Encourage)",
+  "title": "Зброя – Пістолети",
+  "image": "/pda/weapons/pistols/encourage.png",
+  "info": [
+    "Нагородний пістолет Олександра Коршунова, який він отримав ще в чині лейтенанта. Деталі ретельно підігнані, на затворі пам'ятний напис: «Слава. Служба. Честь»."
+  ],
+  "how_to_get": [
+    "Початковий одяг."
+  ],
+  "resistance": [
+    {
+      "name": "Шкода",
+      "image": "/svg/damage.svg",
+      "value": 1.4
+    },
+    {
+      "name": "Пробиття",
+      "image": "/svg/penetration.svg",
+      "value": 3
+    },
+    {
+      "name": "Темп стрільби",
+      "image": "/svg/rate.svg",
+      "value": 4.9
+    },
+    {
+      "name": "Дальність",
+      "image": "/svg/range.svg",
+      "value": 1
+    },
+    {
+      "name": "Точність",
+      "image": "/svg/accuracy.svg",
+      "value": 3.1
+    }
+  ],
+  "attachments": {
+    "name": "Tактичний обвіс:",
+    "links": [
+      {
+        "name": "Глушник пістолета (глушники)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "Коліматорний приціл (приціли)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "Магазин великої місткості APSB (магазини)",
+        "url": "/pda/attachments"
+      }
+    ]
+  },
+  "details": [
+    {
+      "name": "Тип",
+      "image": "/svg/pistol.svg",
+      "value": "Пістолет"
+    },
+    {
+      "name": "Калібр",
+      "image": "/svg/ammo.svg",
+      "value": "9x18"
+    },
+    {
+      "name": "Режими вогню",
+      "image": "/svg/rate.svg",
+      "value": "Потрійний"
+    },
+    {
+      "name": "Магазин, набої",
+      "image": "/svg/magazine.svg",
+      "value": "18"
+    },
+    {
+      "name": "Унікальна",
+      "image": "/svg/rare.svg",
+      "value": "Так"
+    },
+    {
+      "name": "Вага",
+      "image": "/svg/weight.svg",
+      "value": "1.1 кг"
+    },
+    {
+      "name": "Купони",
+      "image": "/svg/kupon.svg",
+      "value": "8 200"
+    }
+  ]
+}

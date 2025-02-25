@@ -1,0 +1,87 @@
+{
+  "type": "pistols",
+  "route_name": "competitor",
+  "route:": "/pda/weapons/pistols/competitor",
+  "name": "Модель Конкурент (Model Competitor) DLC",
+  "title": "Зброя – Пістолети",
+  "image": "/pda/weapons/pistols/competitor.png",
+  "info": [
+    "Спортивний револьвер ручної збірки. Всі зазори відрегульовані, спусковий механізм замінений на більш гострий. Відмінний вибір для відстрілу кровопивць... швидкісного відстрілу кровопивць."
+  ],
+  "how_to_get": [
+    "Початковий одяг."
+  ],
+  "resistance": [
+    {
+      "name": "Шкода",
+      "image": "/svg/damage.svg",
+      "value": 5
+    },
+    {
+      "name": "Пробиття",
+      "image": "/svg/penetration.svg",
+      "value": 3
+    },
+    {
+      "name": "Темп стрільби",
+      "image": "/svg/rate.svg",
+      "value": 3.6
+    },
+    {
+      "name": "Дальність",
+      "image": "/svg/range.svg",
+      "value": 1.9
+    },
+    {
+      "name": "Точність",
+      "image": "/svg/accuracy.svg",
+      "value": 4.1
+    }
+  ],
+  "attachments": {
+    "name": "Tактичний обвіс:",
+    "links": [
+      {
+        "name": "RNBW 2X оптика (приціли)",
+        "url": "/pda/attachments"
+      }
+    ]
+  },
+  "details": [
+    {
+      "name": "Тип",
+      "image": "/svg/pistol.svg",
+      "value": "Пістолет"
+    },
+    {
+      "name": "Калібр",
+      "image": "/svg/ammo.svg",
+      "value": "9x39"
+    },
+    {
+      "name": "Режими вогню",
+      "image": "/svg/rate.svg",
+      "value": "Одинарний"
+    },
+    {
+      "name": "Магазин, набої",
+      "image": "/svg/magazine.svg",
+      "value": "6"
+    },
+    {
+      "name": "Унікальна",
+      "image": "/svg/rare.svg",
+      "value": "Так"
+    },
+    {
+      "name": "Вага",
+      "image": "/svg/weight.svg",
+      "value": "1.5 кг"
+    },
+    {
+      "name": "Купони",
+      "image": "/svg/kupon.svg",
+      "value": "16 200"
+    }
+  ]
+}

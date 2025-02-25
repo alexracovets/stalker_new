@@ -1,0 +1,91 @@
+{
+  "type": "pistols",
+  "route_name": "gambit",
+  "route:": "/pda/weapons/pistols/gambit",
+  "name": "Гамбіт (Gambit)",
+  "title": "Зброя – Пістолети",
+  "image": "/pda/weapons/pistols/gambit.png",
+  "info": [
+    "Цінність жертви на початку партії по-справжньому можна оцінити тільки в ендшпілі."
+  ],
+  "how_to_get": [
+    "Початковий одяг."
+  ],
+  "resistance": [
+    {
+      "name": "Шкода",
+      "image": "/svg/damage.svg",
+      "value": 1.2
+    },
+    {
+      "name": "Пробиття",
+      "image": "/svg/penetration.svg",
+      "value": 1.1
+    },
+    {
+      "name": "Темп стрільби",
+      "image": "/svg/rate.svg",
+      "value": 4.95
+    },
+    {
+      "name": "Дальність",
+      "image": "/svg/range.svg",
+      "value": 0.6
+    },
+    {
+      "name": "Точність",
+      "image": "/svg/accuracy.svg",
+      "value": 3.9
+    }
+  ],
+  "attachments": {
+    "name": "Tактичний обвіс:",
+    "links": [
+      {
+        "name": "Тактичний глушник пістолета (глушники)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "Магазин великої місткості УДП (магазини)",
+        "url": "/pda/attachments"
+      }
+    ]
+  },
+  "details": [
+    {
+      "name": "Тип",
+      "image": "/svg/pistol.svg",
+      "value": "Пістолет"
+    },
+    {
+      "name": "Калібр",
+      "image": "/svg/ammo.svg",
+      "value": "9x19"
+    },
+    {
+      "name": "Режими вогню",
+      "image": "/svg/rate.svg",
+      "value": "Одинарний"
+    },
+    {
+      "name": "Магазин, набої",
+      "image": "/svg/magazine.svg",
+      "value": "15"
+    },
+    {
+      "name": "Унікальна",
+      "image": "/svg/rare.svg",
+      "value": "Так"
+    },
+    {
+      "name": "Вага",
+      "image": "/svg/weight.svg",
+      "value": "0.72 кг"
+    },
+    {
+      "name": "Купони",
+      "image": "/svg/kupon.svg",
+      "value": "2 925"
+    }
+  ]
+}

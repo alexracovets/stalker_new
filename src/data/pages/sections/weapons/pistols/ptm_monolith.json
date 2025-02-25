@@ -1,0 +1,91 @@
+{
+  "type": "pistols",
+  "route_name": "ptm_monolith",
+  "route:": "/pda/weapons/pistols/ptm_monolith",
+  "name": "ПМ Моноліт (PTM Monolith) DLC",
+  "title": "Зброя – Пістолети",
+  "image": "/pda/weapons/pistols/ptm_monolith.png",
+  "info": [
+    "Дякуємо, що відкрив нам підступні плани Твоїх ворогів! Нехай Твоє світло осяє душі хоробрих воїнів, які віддали своє життя в служінні Твоїй волі. Нехай буде благословенним їхнє вічне єднання з Монолітом."
+  ],
+  "how_to_get": [
+    "Початковий одяг."
+  ],
+  "resistance": [
+    {
+      "name": "Шкода",
+      "image": "/svg/damage.svg",
+      "value": 1.6
+    },
+    {
+      "name": "Пробиття",
+      "image": "/svg/penetration.svg",
+      "value": 1.1
+    },
+    {
+      "name": "Темп стрільби",
+      "image": "/svg/rate.svg",
+      "value": 4.92
+    },
+    {
+      "name": "Дальність",
+      "image": "/svg/range.svg",
+      "value": 0.55
+    },
+    {
+      "name": "Точність",
+      "image": "/svg/accuracy.svg",
+      "value": 3.3
+    }
+  ],
+  "attachments": {
+    "name": "Tактичний обвіс:",
+    "links": [
+      {
+        "name": "Глушник пістолета (глушники)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "Магазин великої місткості PTM (магазини)",
+        "url": "/pda/attachments"
+      }
+    ]
+  },
+  "details": [
+    {
+      "name": "Тип",
+      "image": "/svg/pistol.svg",
+      "value": "Пістолет"
+    },
+    {
+      "name": "Калібр",
+      "image": "/svg/ammo.svg",
+      "value": "9x18"
+    },
+    {
+      "name": "Режими вогню",
+      "image": "/svg/rate.svg",
+      "value": "Одинарний"
+    },
+    {
+      "name": "Магазин, набої",
+      "image": "/svg/magazine.svg",
+      "value": "8"
+    },
+    {
+      "name": "Унікальна",
+      "image": "/svg/rare.svg",
+      "value": "Так"
+    },
+    {
+      "name": "Вага",
+      "image": "/svg/weight.svg",
+      "value": "0.5 кг"
+    },
+    {
+      "name": "Купони",
+      "image": "/svg/kupon.svg",
+      "value": "300"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "type": "pistols",
+  "route_name": "buket",
+  "route:": "/pda/weapons/pistols/buket",
+  "name": "Букет S-2 (Buket S-2)",
+  "title": "Зброя – Пістолети-кулемети",
+  "image": "/pda/weapons/pistols/buket.png",
+  "info": [
+    "Задумана в СРСР як компактна автоматична зброя самооборони, ця конструкція знайшла популярність на околицях Зони, незважаючи на свою скромну ефективність."
+  ],
+  "how_to_get": [
+    "Початковий одяг."
+  ],
+  "resistance": [
+    {
+      "name": "Шкода",
+      "image": "/svg/damage.svg",
+      "value": 1.2
+    },
+    {
+      "name": "Пробиття",
+      "image": "/svg/penetration.svg",
+      "value": 2.1
+    },
+    {
+      "name": "Темп стрільби",
+      "image": "/svg/rate.svg",
+      "value": 4.9
+    },
+    {
+      "name": "Дальність",
+      "image": "/svg/range.svg",
+      "value": 1.3
+    },
+    {
+      "name": "Точність",
+      "image": "/svg/accuracy.svg",
+      "value": 3.3
+    }
+  ],
+  "attachments": {
+    "name": "Tактичний обвіс:",
+    "links": [
+      {
+        "name": "Глушник пістолета (глушники)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "Коліматорний приціл (приціли)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "Магазин великої місткості Букет S-2 (магазини)",
+        "url": "/pda/attachments"
+      }
+    ]
+  },
+  "details": [
+    {
+      "name": "Тип",
+      "image": "/svg/submachine.svg",
+      "value": "Пістолети-кулемети"
+    },
+    {
+      "name": "Калібр",
+      "image": "/svg/ammo.svg",
+      "value": "9x18"
+    },
+    {
+      "name": "Режими вогню",
+      "image": "/svg/rate.svg",
+      "value": "Одиночний, автоматичний"
+    },
+    {
+      "name": "Магазин, набої",
+      "image": "/svg/magazine.svg",
+      "value": "20"
+    },
+    {
+      "name": "Унікальна",
+      "image": "/svg/rare.svg",
+      "value": "Ні"
+    },
+    {
+      "name": "Вага",
+      "image": "/svg/weight.svg",
+      "value": "1.6 кг"
+    },
+    {
+      "name": "Купони",
+      "image": "/svg/kupon.svg",
+      "value": "12 000"
+    }
+  ]
+}

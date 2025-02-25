@@ -1,0 +1,99 @@
+{
+  "type": "pistols",
+  "route_name": "integral",
+  "route:": "/pda/weapons/pistols/integral",
+  "name": "Інтеграл-А (Integral-A)",
+  "title": "Зброя – Пістолети-кулемети",
+  "image": "/pda/weapons/pistols/integral.png",
+  "info": [
+    "Елітний пістолет-кулемет, відомий своєю ефективністю в підземних сховищах. Улюбленець досвідчених дигерів"
+  ],
+  "how_to_get": [
+    "Початковий одяг."
+  ],
+  "resistance": [
+    {
+      "name": "Шкода",
+      "image": "/svg/damage.svg",
+      "value": 0.7
+    },
+    {
+      "name": "Пробиття",
+      "image": "/svg/penetration.svg",
+      "value": 2.9
+    },
+    {
+      "name": "Темп стрільби",
+      "image": "/svg/rate.svg",
+      "value": 5
+    },
+    {
+      "name": "Дальність",
+      "image": "/svg/range.svg",
+      "value": 1.6
+    },
+    {
+      "name": "Точність",
+      "image": "/svg/accuracy.svg",
+      "value": 3.9
+    }
+  ],
+  "attachments": {
+    "name": "Tактичний обвіс:",
+    "links": [
+      {
+        "name": "Глушник пістолета (глушники)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "Голографічний приціл (приціли)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "RNBW 2X оптика (приціли)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "Магазин великої місткості Інтеграл-А (магазини)",
+        "url": "/pda/attachments"
+      }
+    ]
+  },
+  "details": [
+    {
+      "name": "Тип",
+      "image": "/svg/submachine.svg",
+      "value": "Пістолети-кулемети"
+    },
+    {
+      "name": "Калібр",
+      "image": "/svg/ammo.svg",
+      "value": "9x18"
+    },
+    {
+      "name": "Режими вогню",
+      "image": "/svg/rate.svg",
+      "value": "Одиночний, потрійний, автоматичний"
+    },
+    {
+      "name": "Магазин, набої",
+      "image": "/svg/magazine.svg",
+      "value": "20"
+    },
+    {
+      "name": "Унікальна",
+      "image": "/svg/rare.svg",
+      "value": "Ні"
+    },
+    {
+      "name": "Вага",
+      "image": "/svg/weight.svg",
+      "value": "3.2 кг"
+    },
+    {
+      "name": "Купони",
+      "image": "/svg/kupon.svg",
+      "value": "17 000"
+    }
+  ]
+}

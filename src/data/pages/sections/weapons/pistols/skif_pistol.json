@@ -1,0 +1,91 @@
+{
+  "type": "pistols",
+  "route_name": "skif_pistol",
+  "route:": "/pda/weapons/pistols/skif_pistol",
+  "name": "Пістолет Скіфа (Skif's Pistol)",
+  "title": "Зброя – Пістолети",
+  "image": "/pda/weapons/pistols/skif_pistol.png",
+  "info": [
+    "Нагородний ПТМ Скіфа. У минулому майже знущальне нагадування про армію, тепер - зручна зброя, що звично лежить у руці."
+  ],
+  "how_to_get": [
+    "Початковий одяг."
+  ],
+  "resistance": [
+    {
+      "name": "Шкода",
+      "image": "/svg/damage.svg",
+      "value": 1.6
+    },
+    {
+      "name": "Пробиття",
+      "image": "/svg/penetration.svg",
+      "value": 1.1
+    },
+    {
+      "name": "Темп стрільби",
+      "image": "/svg/rate.svg",
+      "value": 4.92
+    },
+    {
+      "name": "Дальність",
+      "image": "/svg/range.svg",
+      "value": 0.55
+    },
+    {
+      "name": "Точність",
+      "image": "/svg/accuracy.svg",
+      "value": 3.3
+    }
+  ],
+  "attachments": {
+    "name": "Tактичний обвіс:",
+    "links": [
+      {
+        "name": "Глушник пістолета (глушники)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "Високомісткий магазин ПM (магазини)",
+        "url": "/pda/attachments"
+      }
+    ]
+  },
+  "details": [
+    {
+      "name": "Тип",
+      "image": "/svg/pistol.svg",
+      "value": "Пістолет"
+    },
+    {
+      "name": "Калібр",
+      "image": "/svg/ammo.svg",
+      "value": "9x18"
+    },
+    {
+      "name": "Режими вогню",
+      "image": "/svg/rate.svg",
+      "value": "Одинарний"
+    },
+    {
+      "name": "Магазин, набої",
+      "image": "/svg/magazine.svg",
+      "value": "8"
+    },
+    {
+      "name": "Унікальна",
+      "image": "/svg/rare.svg",
+      "value": "Так"
+    },
+    {
+      "name": "Вага",
+      "image": "/svg/weight.svg",
+      "value": "0.05 кг"
+    },
+    {
+      "name": "Купони",
+      "image": "/svg/kupon.svg",
+      "value": "54"
+    }
+  ]
+}

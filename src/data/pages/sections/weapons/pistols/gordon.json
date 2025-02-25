@@ -1,0 +1,95 @@
+{
+  "type": "pistols",
+  "route_name": "gordon",
+  "route:": "/pda/weapons/pistols/gordon",
+  "name": "М10 Гордон (M10 Gordon)",
+  "title": "Зброя – Пістолети-кулемети",
+  "image": "/pda/weapons/pistols/gordon.png",
+  "info": [
+    "Невисока ціна та невисока точність - це все, що потрібно знати про цей пістолет-кулемет. Особливо популярний серед новачків, але не надовго. Життя в реальній зоні незабаром покаже вам, наскільки ризиковано економити на спорядженні."
+  ],
+  "how_to_get": [
+    "Початковий одяг."
+  ],
+  "resistance": [
+    {
+      "name": "Шкода",
+      "image": "/svg/damage.svg",
+      "value": 0.4
+    },
+    {
+      "name": "Пробиття",
+      "image": "/svg/penetration.svg",
+      "value": 2.1
+    },
+    {
+      "name": "Темп стрільби",
+      "image": "/svg/rate.svg",
+      "value": 5
+    },
+    {
+      "name": "Дальність",
+      "image": "/svg/range.svg",
+      "value": 0.55
+    },
+    {
+      "name": "Точність",
+      "image": "/svg/accuracy.svg",
+      "value": 2.1
+    }
+  ],
+  "attachments": {
+    "name": "Tактичний обвіс:",
+    "links": [
+      {
+        "name": "Тактичний глушник для пістолета (глушники)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "Голографічний приціл (приціли)",
+        "url": "/pda/attachments"
+      },
+      {
+        "name": "Магазин великої місткості M10 (магазини)",
+        "url": "/pda/attachments"
+      }
+    ]
+  },
+  "details": [
+    {
+      "name": "Тип",
+      "image": "/svg/submachine.svg",
+      "value": "Пістолети-кулемети"
+    },
+    {
+      "name": "Калібр",
+      "image": "/svg/ammo.svg",
+      "value": "9x18"
+    },
+    {
+      "name": "Режими вогню",
+      "image": "/svg/rate.svg",
+      "value": "Автоматичний"
+    },
+    {
+      "name": "Магазин, набої",
+      "image": "/svg/magazine.svg",
+      "value": "30"
+    },
+    {
+      "name": "Унікальна",
+      "image": "/svg/rare.svg",
+      "value": "Ні"
+    },
+    {
+      "name": "Вага",
+      "image": "/svg/weight.svg",
+      "value": "1.4 кг"
+    },
+    {
+      "name": "Купони",
+      "image": "/svg/kupon.svg",
+      "value": "5 700"
+    }
+  ]
+}

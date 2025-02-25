@@ -1,20 +1,76 @@
 {
-    "route": "/pda/weapons",
-    "name": "Зброя",
-    "title": "Категорії",
-    "info": [
-        "Опис про Зброя 'коротке інфо'"
-    ],
-    "links": [
+  "route": "/pda/weapons",
+  "name": "Зброя",
+  "title": "Категорії",
+  "info": [
+    "Опис про Зброя 'коротке інфо'"
+  ],
+  "links": [
+    {
+      "route": "/pda/weapons/pistols",
+      "name": "Пістолети",
+      "sub_links": [
         {
-            "route": "/pda/weapons/pistols",
-            "name": "Пістолети",
-            "sub_links": [
-                {
-                    "route": "/pda/weapons/pistols/pm",
-                    "name": "ПМ"
-                }
-            ]
+          "route": "/pda/weapons/pistols/pm",
+          "name": "ПМ"
+        },
+        {
+          "route": "/pda/weapons/pistols/upd_compact",
+          "name": "УДП Компакт (UDP Compact)"
+        },
+        {
+          "route": "/pda/weapons/pistols/apsb",
+          "name": "АПСБ (APSB)"
+        },
+        {
+          "route": "/pda/weapons/pistols/rhino",
+          "name": "Носоріг (Rhino)"
+        },
+        {
+          "route": "/pda/weapons/pistols/skif_pistol",
+          "name": "Пістолет Скіфа (Skif's Pistol)"
+        },
+        {
+          "route": "/pda/weapons/pistols/ptm_monolith",
+          "name": "ПМ Моноліт (PTM Monolith) DLC"
+        },
+        {
+          "route": "/pda/weapons/pistols/labyrinth",
+          "name": "Лабіринт IV (Labyrinth IV)"
+        },
+        {
+          "route": "/pda/weapons/pistols/dead_eye",
+          "name": "Хибна сліпота (Dead Eye)"
+        },
+        {
+          "route": "/pda/weapons/pistols/gambit",
+          "name": "Гамбіт (Gambit)"
+        },
+        {
+          "route": "/pda/weapons/pistols/encourage",
+          "name": "Наставник (Encourage)"
+        },
+        {
+          "route": "/pda/weapons/pistols/competitor",
+          "name": "Модель Конкурент (Model Competitor) DLC"
+        },
+        {
+          "route": "/pda/weapons/pistols/viper",
+          "name": "Гадюка-5 (Viper-5)"
+        },
+        {
+          "route": "/pda/weapons/pistols/gordon",
+          "name": "М10 Гордон (M10 Gordon)"
+        },
+        {
+          "route": "/pda/weapons/pistols/buket",
+          "name": "Букет S-2 (Buket S-2)"
+        },
+        {
+          "route": "/pda/weapons/pistols/integral",
+          "name": "Інтеграл-А (Integral-A)"
         }
-    ]
+      ]
+    }
+  ]
 }
