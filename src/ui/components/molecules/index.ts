@@ -14,6 +14,8 @@ export { Navigation } from './Navigation';
 export { HomeMenu } from './HomeMenu';
 export { Internet } from './Internet';
 export { Timer } from './Timer';
+export { HowToGet } from './HowToGet';
+export { AttachmentsBlock } from './AttachmentsBlock';
 
 export { InfoBlock } from './InfoBlock';
 export { TitleBlock } from './TitleBlock';

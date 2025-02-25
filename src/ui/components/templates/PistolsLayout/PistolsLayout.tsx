@@ -1,10 +1,11 @@
 "use client";
 
-import { InfoBlock, TitleBlock, ElementsShowImage, ElementsDetails, ProtectionBlock } from "@components/molecules";
+import { InfoBlock, TitleBlock, ElementsShowImage, ElementsDetails, ProtectionBlock, HowToGet, AttachmentsBlock } from "@components/molecules";
 import { ElementsInnerLeft, ElementsInnerRight, ElementsWrapper, CustomScroll } from "@components/atoms";
 import { ElementsDataType } from "@/types";
 
-export const PistolsLayout = ({ name, title, info, resistance, image, details }: ElementsDataType) => {
+export const PistolsLayout = ({ name, title, info, resistance, how_to_get, image, details, attachments }: ElementsDataType) => {
+    console.log(attachments)
     return (
         <CustomScroll>
             <ElementsWrapper>
@@ -14,7 +15,9 @@ export const PistolsLayout = ({ name, title, info, resistance, image, details }:
                     <InfoBlock infoes={info} />
                     <ProtectionBlock resistance={resistance} />
                 </ElementsInnerLeft>
-                <ElementsInnerRight>
+                <ElementsInnerRight variant="pistols">
+                    <HowToGet how_to_get={how_to_get} />
+                    <AttachmentsBlock {...attachments} />
                     <ElementsDetails details={details} variant="secondary" />
                 </ElementsInnerRight>
             </ElementsWrapper>

@@ -1,6 +1,6 @@
 "use client";
 
-import { ProtectionBlock, InfoBlock, TitleBlock, ElementsShowImage, ElementsDetails } from "@components/molecules";
+import { ProtectionBlock, InfoBlock, TitleBlock, ElementsShowImage, ElementsDetails, HowToGet } from "@components/molecules";
 import { ElementsInnerLeft, ElementsInnerRight, ElementsWrapper, CustomScroll } from "@components/atoms";
 import { ElementsDataType } from "@/types";
 
@@ -10,7 +10,8 @@ export const MaskTemplate = ({ name, title, info, image, how_to_get, resistance,
             <ElementsWrapper>
                 <ElementsInnerLeft>
                     <TitleBlock name={name} title={title} />
-                    <InfoBlock infoes={info} how_to_get={how_to_get} />
+                    <InfoBlock infoes={info} />
+                    <HowToGet how_to_get={how_to_get} marginBottom="mb-[12.9rem]"/>
                     <ProtectionBlock resistance={resistance} />
                 </ElementsInnerLeft>
                 <ElementsInnerRight>

@@ -19,5 +19,9 @@ export interface ElementsDataType {
         image: string;
         value: string;
         valueColor?: string;
-    }[]
+    }[],
+    attachments?: {
+        name?: string;
+        links?: { name: string, url: string }[];
+    };
 }

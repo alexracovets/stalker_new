@@ -1,12 +1,12 @@
 {
     "type": "pistols",
-    "route_name": "pm",
-    "route:": "/pda/weapons/pistols/pm",
-    "name": "ПМ",
+    "route_name": "apsb",
+    "route:": "/pda/weapons/pistols/apsb",
+    "name": "АПСБ (APSB)",
     "title": "Зброя – Пістолети",
-    "image": "/pda/weapons/pistols/pm.png",
+    "image": "/pda/weapons/pistols/apsb.png",
     "info": [
-        "Службовий пістолет, модернізований. Розроблений у 60-х роках для оснащення офіцерів поліції та армії в країнах Східного блоку. Популярний в Зоні завдяки своїй надійності."
+        "Безшумний пістолет, колись основний інструмент радянського спецназу. У Зоні він швидко став улюбленим інструментом для непомітного вирішення найрізноманітніших проблем."
     ],
     "how_to_get": [
         "Початковий одяг."
@@ -15,27 +15,27 @@
         {
             "name": "Шкода",
             "image": "/svg/damage.svg",
-            "value": 1.6
+            "value": 1.1
         },
         {
             "name": "Пробиття",
             "image": "/svg/penetration.svg",
-            "value": 1.1
+            "value": 3
         },
         {
             "name": "Темп стрільби",
             "image": "/svg/rate.svg",
-            "value": 4.92
+            "value": 4.93
         },
         {
             "name": "Дальність",
             "image": "/svg/range.svg",
-            "value": 0.6
+            "value": 1
         },
         {
             "name": "Псі",
             "image": "/svg/accuracy.svg",
-            "value": 3.2
+            "value": 3.1
         }
     ],
     "attachments": {
@@ -46,7 +46,11 @@
                 "url": "/pda/attachments"
             },
             {
-                "name": "Магазин великої місткості ПМ (магазини)",
+                "name": "Коліматорний приціл (приціли)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "Магазин великої місткості APSB (магазини)",
                 "url": "/pda/attachments"
             }
         ]
@@ -65,12 +69,12 @@
         {
             "name": "Режими вогню",
             "image": "/svg/rate.svg",
-            "value": "Одинарний"
+            "value": "Потрійний"
         },
         {
             "name": "Магазин, набої",
             "image": "/svg/magazine.svg",
-            "value": "8"
+            "value": "18"
         },
         {
             "name": "Унікальна",
@@ -80,12 +84,12 @@
         {
             "name": "Вага",
             "image": "/svg/weight.svg",
-            "value": "0.5 кг"
+            "value": "1.1 кг"
         },
         {
             "name": "Купони",
             "image": "/svg/kupon.svg",
-            "value": "950"
+            "value": "14 000"
         }
     ]
 }
