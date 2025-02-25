@@ -1,0 +1,63 @@
+{
+    "type": "pistols",
+    "route_name": "pm",
+    "route:": "/pda/weapons/pistols/pm",
+    "name": "ПМ",
+    "title": "Зброя – Пістолети",
+    "image": "/pda/weapons/pistols/pm.png",
+    "info": [
+        "Недорога темна куртка, яку всюди носять бандити. Насправді це не захистить вас, але змусить вас виглядати дурно."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Тепловий",
+            "image": "/svg/thermal.svg",
+            "value": 0.3
+        },
+        {
+            "name": "Електричний",
+            "image": "/svg/electrical.svg",
+            "value": 0.3
+        },
+        {
+            "name": "Хімічний",
+            "image": "/svg/chemical.svg",
+            "value": 0.3
+        },
+        {
+            "name": "Радіаційний",
+            "image": "/svg/radiation.svg",
+            "value": 0
+        },
+        {
+            "name": "Псі",
+            "image": "/svg/psi.svg",
+            "value": 0
+        },
+        {
+            "name": "Фізичний",
+            "image": "/svg/physical.svg",
+            "value": 1.1
+        }
+    ],
+    "details": [
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "3 кг"
+        },
+        {
+            "name": "Слоти для Артефактів",
+            "image": "/svg/artifacts_slots.svg",
+            "value": "1"
+        },
+        {
+            "name": "Ціна",
+            "image": "/svg/kupon.svg",
+            "value": "17 200"
+        }
+    ]
+}

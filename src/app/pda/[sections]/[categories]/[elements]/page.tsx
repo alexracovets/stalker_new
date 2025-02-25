@@ -34,6 +34,8 @@ export default async function Elements({ params }: PageProps) {
                                 return <ArmorTemplate {...data} />;
                             case "kit":
                                 return <KitsTemplate {...data} />;
+                            case "pistols":
+                                return <KitsTemplate {...data} />;
                             default:
                                 return null;
                         }
