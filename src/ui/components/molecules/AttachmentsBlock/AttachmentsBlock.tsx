@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { Text, AtomImage } from "@components/atoms";
-import Image from "next/image";
 import { cn } from "@/utils";
 
 interface AttachmentsBlockProps {
