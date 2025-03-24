@@ -1,0 +1,95 @@
+{
+    "type": "automatics",
+    "route_name": "akm_74u",
+    "route:": "/pda/weapons/automatics/akm_74u",
+    "name": "AKM-74У (AKM-74U)",
+    "title": "Зброя – Штурмові гвинтівки",
+    "image": "/pda/weapons/automatics/akm_74u.png",
+    "info": [
+        "Укорочений варіант відомої штурмової гвинтівки. Ця зброя поєднує вогневу міць свого більшого аналога з компактною рамою пістолета-кулемета. Це виявляється особливо цінним, коли вирушаєте вглиб Зони."
+    ],
+    "how_to_get": [
+        "Початковий одяг."
+    ],
+    "resistance": [
+        {
+            "name": "Шкода",
+            "image": "/svg/damage.svg",
+            "value": 1
+        },
+        {
+            "name": "Пробиття",
+            "image": "/svg/penetration.svg",
+            "value": 1.1
+        },
+        {
+            "name": "Темп стрільби",
+            "image": "/svg/rate.svg",
+            "value": 4.92
+        },
+        {
+            "name": "Дальність",
+            "image": "/svg/range.svg",
+            "value": 1.2
+        },
+        {
+            "name": "Точність",
+            "image": "/svg/accuracy.svg",
+            "value": 2.5
+        }
+    ],
+    "attachments": {
+        "name": "Tактичний обвіс:",
+        "links": [
+            {
+                "name": "Глушник пістолета (глушники)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "Коліматорний приціл (приціли)",
+                "url": "/pda/attachments"
+            },
+            {
+                "name": "Магазин великої місткості APSB (магазини)",
+                "url": "/pda/attachments"
+            }
+        ]
+    },
+    "details": [
+        {
+            "name": "Тип",
+            "image": "/svg/pistol.svg",
+            "value": "Штурмова гвинтівка"
+        },
+        {
+            "name": "Калібр",
+            "image": "/svg/ammo.svg",
+            "value": "5.45x39"
+        },
+        {
+            "name": "Режими вогню",
+            "image": "/svg/rate.svg",
+            "value": "Одинарний, автоматичний"
+        },
+        {
+            "name": "Магазин, набої",
+            "image": "/svg/magazine.svg",
+            "value": "30"
+        },
+        {
+            "name": "Унікальна",
+            "image": "/svg/rare.svg",
+            "value": "Ні"
+        },
+        {
+            "name": "Вага",
+            "image": "/svg/weight.svg",
+            "value": "2.7 кг"
+        },
+        {
+            "name": "Купони",
+            "image": "/svg/kupon.svg",
+            "value": "6 000"
+        }
+    ]
+}

@@ -17,7 +17,7 @@ export default async function Elements({ params }: PageProps) {
     try {
         data = (await import(`@data/pages/sections/${section}/${category}/${element}.json`)).default;
     } catch { }
-    
+
     return (
         <div
             className="flex flex-col flex-grow h-full"
@@ -35,6 +35,8 @@ export default async function Elements({ params }: PageProps) {
                             case "kit":
                                 return <KitsTemplate {...data} />;
                             case "pistols":
+                                return <PistolsLayout {...data} />;
+                            case "automatics":
                                 return <PistolsLayout {...data} />;
                             default:
                                 return null;

@@ -99,6 +99,16 @@
           "name": "Щуробій (Rat Killer)"
         }
       ]
+    },
+    {
+      "route": "/pda/weapons/automatics",
+      "name": "Штурмова гвинтівка",
+      "sub_links": [
+        {
+          "route": "/pda/weapons/automatics/akm_74u",
+          "name": "AKM-74У"
+        }
+      ]
     }
   ]
 }
